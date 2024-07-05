@@ -1,0 +1,1366 @@
+# Logfile created on 2024-07-05 16:20:07 +0000 by logger.rb/v1.4.2
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-07-05 16:20:07 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [b89f47a3] Running /usr/bin/env mkdir -p /tmp as user@158.160.13.184
+ DEBUG [b89f47a3] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-07-05 16:20:42 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-07-05 16:21:58 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-07-05 16:30:46 +0000 cap production deploy:setup
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-07-05 16:34:14 +0000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-07-05 19:42:22 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [6dbd545d] Running /usr/bin/env mkdir -p /tmp as user@158.160.13.184
+ DEBUG [6dbd545d] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-07-05 19:44:38 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [82a5f7bd] Running /usr/bin/env mkdir -p /tmp as user@158.160.13.184
+ DEBUG [82a5f7bd] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-07-05 19:53:57 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [a9d09e6d] Running /usr/bin/env mkdir -p /tmp as user@158.160.13.184
+ DEBUG [a9d09e6d] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-07-05 19:57:30 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [47aa7f30] Running /usr/bin/env mkdir -p /tmp as user@158.160.13.184
+ DEBUG [47aa7f30] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-07-05 20:01:33 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [ea374bda] Running /usr/bin/env mkdir -p /tmp as user@158.160.13.184
+ DEBUG [ea374bda] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-07-05 20:04:21 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [22e16690] Running /usr/bin/env mkdir -p /tmp as user@158.160.13.184
+ DEBUG [22e16690] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-07-05 20:04:39 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [97c2c2a2] Running /usr/bin/env mkdir -p /tmp as user@158.160.13.184
+ DEBUG [97c2c2a2] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-07-05 20:05:01 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [0733a665] Running /usr/bin/env mkdir -p /tmp as user@158.160.13.184
+ DEBUG [0733a665] Command: /usr/bin/env mkdir -p /tmp
+  INFO [0733a665] Finished in 0.335 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-f74ac2aa4747baf77551.sh 0.0%
+  INFO Uploading /tmp/git-ssh-f74ac2aa4747baf77551.sh 100.0%
+  INFO [8b6cb164] Running /usr/bin/env chmod 700 /tmp/git-ssh-f74ac2aa4747baf77551.sh as user@158.160.13.184
+ DEBUG [8b6cb164] Command: /usr/bin/env chmod 700 /tmp/git-ssh-f74ac2aa4747baf77551.sh
+  INFO [8b6cb164] Finished in 0.035 seconds with exit status 0 (successful).
+  INFO [df2bdffd] Running /usr/bin/env git ls-remote https://github.com/symfony/demo.git HEAD as user@158.160.13.184
+ DEBUG [df2bdffd] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-f74ac2aa4747baf77551.sh" ; /usr/bin/env git ls-remote https://github.com/symfony/demo.git HEAD )
+ DEBUG [df2bdffd] 	5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1	HEAD
+  INFO [df2bdffd] Finished in 1.002 seconds with exit status 0 (successful).
+  INFO [84475c5c] Running /usr/bin/env mkdir -p /var/www/symfony/shared /var/www/symfony/releases as user@158.160.13.184
+ DEBUG [84475c5c] Command: /usr/bin/env mkdir -p /var/www/symfony/shared /var/www/symfony/releases
+ DEBUG [84475c5c] 	mkdir: 
+ DEBUG [84475c5c] 	cannot create directory ‘/var/www/symfony/shared’
+ DEBUG [84475c5c] 	: Permission denied
+mkdir: cannot create directory ‘/var/www/symfony/releases’: Permission denied
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-07-05 20:06:22 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [926f3530] Running /usr/bin/env mkdir -p /tmp as user@158.160.13.184
+ DEBUG [926f3530] Command: /usr/bin/env mkdir -p /tmp
+  INFO [926f3530] Finished in 0.318 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-7a26c8010d04493cc87e.sh 0.0%
+  INFO Uploading /tmp/git-ssh-7a26c8010d04493cc87e.sh 100.0%
+  INFO [7deba3fd] Running /usr/bin/env chmod 700 /tmp/git-ssh-7a26c8010d04493cc87e.sh as user@158.160.13.184
+ DEBUG [7deba3fd] Command: /usr/bin/env chmod 700 /tmp/git-ssh-7a26c8010d04493cc87e.sh
+  INFO [7deba3fd] Finished in 0.039 seconds with exit status 0 (successful).
+  INFO [f52867f7] Running /usr/bin/env git ls-remote https://github.com/symfony/demo.git HEAD as user@158.160.13.184
+ DEBUG [f52867f7] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-7a26c8010d04493cc87e.sh" ; /usr/bin/env git ls-remote https://github.com/symfony/demo.git HEAD )
+ DEBUG [f52867f7] 	5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1	HEAD
+  INFO [f52867f7] Finished in 0.494 seconds with exit status 0 (successful).
+  INFO [e7a16025] Running /usr/bin/env mkdir -p /var/www/symfony/shared /var/www/symfony/releases as user@158.160.13.184
+ DEBUG [e7a16025] Command: /usr/bin/env mkdir -p /var/www/symfony/shared /var/www/symfony/releases
+  INFO [e7a16025] Finished in 0.035 seconds with exit status 0 (successful).
+ DEBUG [2677fe1d] Running [ -f /var/www/symfony/current/REVISION ] as user@158.160.13.184
+ DEBUG [2677fe1d] Command: [ -f /var/www/symfony/current/REVISION ]
+ DEBUG [2677fe1d] Finished in 0.032 seconds with exit status 1 (failed).
+ DEBUG [239128cf] Running [ -f /var/www/symfony/current/REVISION_TIME ] as user@158.160.13.184
+ DEBUG [239128cf] Command: [ -f /var/www/symfony/current/REVISION_TIME ]
+ DEBUG [239128cf] Finished in 0.035 seconds with exit status 1 (failed).
+ DEBUG [a4af3bc9] Running if test ! -d /var/www/symfony/shared; then echo "Directory does not exist '/var/www/symfony/shared'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [a4af3bc9] Command: if test ! -d /var/www/symfony/shared; then echo "Directory does not exist '/var/www/symfony/shared'" 1>&2; false; fi
+ DEBUG [a4af3bc9] Finished in 0.039 seconds with exit status 0 (successful).
+ DEBUG [c157ef5d] Running /usr/bin/env [ -e composer.phar ] as user@158.160.13.184
+ DEBUG [c157ef5d] Command: cd /var/www/symfony/shared && /usr/bin/env [ -e composer.phar ]
+ DEBUG [c157ef5d] Finished in 0.039 seconds with exit status 1 (failed).
+  INFO [c1e96033] Running /usr/bin/env curl -s https://getcomposer.org/installer | php  as user@158.160.13.184
+ DEBUG [c1e96033] Command: cd /var/www/symfony/shared && /usr/bin/env curl -s https://getcomposer.org/installer | php 
+ DEBUG [c1e96033] 	All settings correct for using Composer
+ DEBUG [c1e96033] 	Downloading...
+ DEBUG [c1e96033] 	
+Composer (version 2.7.7) successfully installed to: /var/www/symfony/shared/composer.phar
+Use it: php composer.phar
+
+  INFO [c1e96033] Finished in 1.459 seconds with exit status 0 (successful).
+ DEBUG [ec1dc0bf] Running [ -f /var/www/symfony/repo/HEAD ] as user@158.160.13.184
+ DEBUG [ec1dc0bf] Command: [ -f /var/www/symfony/repo/HEAD ]
+ DEBUG [ec1dc0bf] Finished in 0.061 seconds with exit status 1 (failed).
+ DEBUG [eb612836] Running if test ! -d /var/www/symfony; then echo "Directory does not exist '/var/www/symfony'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [eb612836] Command: if test ! -d /var/www/symfony; then echo "Directory does not exist '/var/www/symfony'" 1>&2; false; fi
+ DEBUG [eb612836] Finished in 0.041 seconds with exit status 0 (successful).
+  INFO [a12f0321] Running /usr/bin/env git clone --mirror https://github.com/symfony/demo.git /var/www/symfony/repo as user@158.160.13.184
+ DEBUG [a12f0321] Command: cd /var/www/symfony && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-7a26c8010d04493cc87e.sh" ; /usr/bin/env git clone --mirror https://github.com/symfony/demo.git /var/www/symfony/repo )
+ DEBUG [a12f0321] 	Cloning into bare repository '/var/www/symfony/repo'...
+  INFO [a12f0321] Finished in 4.520 seconds with exit status 0 (successful).
+ DEBUG [2040c37d] Running if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [2040c37d] Command: if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi
+ DEBUG [2040c37d] Finished in 0.037 seconds with exit status 0 (successful).
+  INFO [eb9134d0] Running /usr/bin/env git remote set-url origin https://github.com/symfony/demo.git as user@158.160.13.184
+ DEBUG [eb9134d0] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-7a26c8010d04493cc87e.sh" ; /usr/bin/env git remote set-url origin https://github.com/symfony/demo.git )
+  INFO [eb9134d0] Finished in 0.036 seconds with exit status 0 (successful).
+  INFO [e7a07ff4] Running /usr/bin/env git remote update --prune as user@158.160.13.184
+ DEBUG [e7a07ff4] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-7a26c8010d04493cc87e.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [e7a07ff4] 	Fetching origin
+  INFO [e7a07ff4] Finished in 0.545 seconds with exit status 0 (successful).
+ DEBUG [c4d31651] Running if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [c4d31651] Command: if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi
+ DEBUG [c4d31651] Finished in 0.031 seconds with exit status 0 (successful).
+  INFO [48f56460] Running /usr/bin/env mkdir -p /var/www/symfony/releases/20240705170625 as user@158.160.13.184
+ DEBUG [48f56460] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-7a26c8010d04493cc87e.sh" ; /usr/bin/env mkdir -p /var/www/symfony/releases/20240705170625 )
+  INFO [48f56460] Finished in 0.047 seconds with exit status 0 (successful).
+  INFO [457a0d2f] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/symfony/releases/20240705170625 as user@158.160.13.184
+ DEBUG [457a0d2f] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-7a26c8010d04493cc87e.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/symfony/releases/20240705170625 )
+ DEBUG [457a0d2f] 	fatal: not a valid object name: master
+ DEBUG [457a0d2f] 	tar: This does not look like a tar archive
+ DEBUG [457a0d2f] 	tar: Exiting with failure status due to previous errors
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-07-05 20:08:18 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [2324cfa9] Running /usr/bin/env mkdir -p /tmp as user@158.160.13.184
+ DEBUG [2324cfa9] Command: /usr/bin/env mkdir -p /tmp
+  INFO [2324cfa9] Finished in 0.310 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-68f4d8efe345a5f6f077.sh 0.0%
+  INFO Uploading /tmp/git-ssh-68f4d8efe345a5f6f077.sh 100.0%
+  INFO [6f43c16d] Running /usr/bin/env chmod 700 /tmp/git-ssh-68f4d8efe345a5f6f077.sh as user@158.160.13.184
+ DEBUG [6f43c16d] Command: /usr/bin/env chmod 700 /tmp/git-ssh-68f4d8efe345a5f6f077.sh
+  INFO [6f43c16d] Finished in 0.036 seconds with exit status 0 (successful).
+  INFO [71e7b7d5] Running /usr/bin/env git ls-remote https://github.com/symfony/demo.git HEAD as user@158.160.13.184
+ DEBUG [71e7b7d5] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-68f4d8efe345a5f6f077.sh" ; /usr/bin/env git ls-remote https://github.com/symfony/demo.git HEAD )
+ DEBUG [71e7b7d5] 	5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1	HEAD
+  INFO [71e7b7d5] Finished in 0.495 seconds with exit status 0 (successful).
+  INFO [a305c9c7] Running /usr/bin/env mkdir -p /var/www/symfony/shared /var/www/symfony/releases as user@158.160.13.184
+ DEBUG [a305c9c7] Command: /usr/bin/env mkdir -p /var/www/symfony/shared /var/www/symfony/releases
+  INFO [a305c9c7] Finished in 0.037 seconds with exit status 0 (successful).
+ DEBUG [94fc9c99] Running [ -f /var/www/symfony/current/REVISION ] as user@158.160.13.184
+ DEBUG [94fc9c99] Command: [ -f /var/www/symfony/current/REVISION ]
+ DEBUG [94fc9c99] Finished in 0.037 seconds with exit status 1 (failed).
+ DEBUG [44b430b5] Running [ -f /var/www/symfony/current/REVISION_TIME ] as user@158.160.13.184
+ DEBUG [44b430b5] Command: [ -f /var/www/symfony/current/REVISION_TIME ]
+ DEBUG [44b430b5] Finished in 0.037 seconds with exit status 1 (failed).
+ DEBUG [f4d80f69] Running if test ! -d /var/www/symfony/shared; then echo "Directory does not exist '/var/www/symfony/shared'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [f4d80f69] Command: if test ! -d /var/www/symfony/shared; then echo "Directory does not exist '/var/www/symfony/shared'" 1>&2; false; fi
+ DEBUG [f4d80f69] Finished in 0.038 seconds with exit status 0 (successful).
+ DEBUG [eda84a84] Running /usr/bin/env [ -e composer.phar ] as user@158.160.13.184
+ DEBUG [eda84a84] Command: cd /var/www/symfony/shared && /usr/bin/env [ -e composer.phar ]
+ DEBUG [eda84a84] Finished in 0.035 seconds with exit status 0 (successful).
+ DEBUG [2673c857] Running [ -f /var/www/symfony/repo/HEAD ] as user@158.160.13.184
+ DEBUG [2673c857] Command: [ -f /var/www/symfony/repo/HEAD ]
+ DEBUG [2673c857] Finished in 0.036 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/symfony/repo
+ DEBUG [3b387912] Running if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [3b387912] Command: if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi
+ DEBUG [3b387912] Finished in 0.036 seconds with exit status 0 (successful).
+  INFO [808c8f56] Running /usr/bin/env git remote set-url origin https://github.com/symfony/demo.git as user@158.160.13.184
+ DEBUG [808c8f56] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-68f4d8efe345a5f6f077.sh" ; /usr/bin/env git remote set-url origin https://github.com/symfony/demo.git )
+  INFO [808c8f56] Finished in 0.039 seconds with exit status 0 (successful).
+  INFO [088a3923] Running /usr/bin/env git remote update --prune as user@158.160.13.184
+ DEBUG [088a3923] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-68f4d8efe345a5f6f077.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [088a3923] 	Fetching origin
+  INFO [088a3923] Finished in 0.534 seconds with exit status 0 (successful).
+ DEBUG [d92bba12] Running if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [d92bba12] Command: if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi
+ DEBUG [d92bba12] Finished in 0.032 seconds with exit status 0 (successful).
+  INFO [b75d4406] Running /usr/bin/env mkdir -p /var/www/symfony/releases/20240705170819 as user@158.160.13.184
+ DEBUG [b75d4406] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-68f4d8efe345a5f6f077.sh" ; /usr/bin/env mkdir -p /var/www/symfony/releases/20240705170819 )
+  INFO [b75d4406] Finished in 0.033 seconds with exit status 0 (successful).
+  INFO [f2a925e8] Running /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /var/www/symfony/releases/20240705170819 as user@158.160.13.184
+ DEBUG [f2a925e8] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-68f4d8efe345a5f6f077.sh" ; /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /var/www/symfony/releases/20240705170819 )
+  INFO [f2a925e8] Finished in 0.048 seconds with exit status 0 (successful).
+ DEBUG [8fbd9f94] Running if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [8fbd9f94] Command: if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi
+ DEBUG [8fbd9f94] Finished in 0.030 seconds with exit status 0 (successful).
+ DEBUG [1e11572b] Running /usr/bin/env git rev-list --max-count=1 main as user@158.160.13.184
+ DEBUG [1e11572b] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-68f4d8efe345a5f6f077.sh" ; /usr/bin/env git rev-list --max-count=1 main )
+ DEBUG [1e11572b] 	5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1
+ DEBUG [1e11572b] Finished in 0.044 seconds with exit status 0 (successful).
+ DEBUG [4c07b1d7] Running if test ! -d /var/www/symfony/releases/20240705170819; then echo "Directory does not exist '/var/www/symfony/releases/20240705170819'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [4c07b1d7] Command: if test ! -d /var/www/symfony/releases/20240705170819; then echo "Directory does not exist '/var/www/symfony/releases/20240705170819'" 1>&2; false; fi
+ DEBUG [4c07b1d7] Finished in 0.043 seconds with exit status 0 (successful).
+  INFO [ca9ba4f6] Running /usr/bin/env echo "5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1" > REVISION as user@158.160.13.184
+ DEBUG [ca9ba4f6] Command: cd /var/www/symfony/releases/20240705170819 && /usr/bin/env echo "5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1" > REVISION
+  INFO [ca9ba4f6] Finished in 0.037 seconds with exit status 0 (successful).
+ DEBUG [381d29eb] Running if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [381d29eb] Command: if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi
+ DEBUG [381d29eb] Finished in 0.031 seconds with exit status 0 (successful).
+ DEBUG [2531628c] Running /usr/bin/env git --no-pager log -1 --pretty=format:"%ct" main as user@158.160.13.184
+ DEBUG [2531628c] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-68f4d8efe345a5f6f077.sh" ; /usr/bin/env git --no-pager log -1 --pretty=format:"%ct" main )
+ DEBUG [2531628c] 	1717505316
+ DEBUG [2531628c] Finished in 0.037 seconds with exit status 0 (successful).
+ DEBUG [be77d234] Running if test ! -d /var/www/symfony/releases/20240705170819; then echo "Directory does not exist '/var/www/symfony/releases/20240705170819'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [be77d234] Command: if test ! -d /var/www/symfony/releases/20240705170819; then echo "Directory does not exist '/var/www/symfony/releases/20240705170819'" 1>&2; false; fi
+ DEBUG [be77d234] Finished in 0.040 seconds with exit status 0 (successful).
+  INFO [d8c10588] Running /usr/bin/env echo "1717505316" > REVISION_TIME as user@158.160.13.184
+ DEBUG [d8c10588] Command: cd /var/www/symfony/releases/20240705170819 && /usr/bin/env echo "1717505316" > REVISION_TIME
+  INFO [d8c10588] Finished in 0.035 seconds with exit status 0 (successful).
+ DEBUG [68f2008f] Running if test ! -d /var/www/symfony/releases/20240705170819; then echo "Directory does not exist '/var/www/symfony/releases/20240705170819'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [68f2008f] Command: if test ! -d /var/www/symfony/releases/20240705170819; then echo "Directory does not exist '/var/www/symfony/releases/20240705170819'" 1>&2; false; fi
+ DEBUG [68f2008f] Finished in 0.035 seconds with exit status 0 (successful).
+  INFO [86e5e1e2] Running php /var/www/symfony/shared/composer.phar install --no-dev --prefer-dist --no-interaction --quiet --optimize-autoloader as user@158.160.13.184
+ DEBUG [86e5e1e2] Command: cd /var/www/symfony/releases/20240705170819 && php /var/www/symfony/shared/composer.phar install --no-dev --prefer-dist --no-interaction --quiet --optimize-autoloader
+ DEBUG [86e5e1e2] 	Script @auto-scripts was called via post-install-cmd
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-07-05 20:23:32 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [41bc2a0b] Running /usr/bin/env mkdir -p /tmp as user@158.160.13.184
+ DEBUG [41bc2a0b] Command: /usr/bin/env mkdir -p /tmp
+  INFO [41bc2a0b] Finished in 0.382 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-9a93718afd559f569c59.sh 0.0%
+  INFO Uploading /tmp/git-ssh-9a93718afd559f569c59.sh 100.0%
+  INFO [9abf0ae0] Running /usr/bin/env chmod 700 /tmp/git-ssh-9a93718afd559f569c59.sh as user@158.160.13.184
+ DEBUG [9abf0ae0] Command: /usr/bin/env chmod 700 /tmp/git-ssh-9a93718afd559f569c59.sh
+  INFO [9abf0ae0] Finished in 0.042 seconds with exit status 0 (successful).
+  INFO [552618fc] Running /usr/bin/env git ls-remote https://github.com/symfony/demo.git HEAD as user@158.160.13.184
+ DEBUG [552618fc] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-9a93718afd559f569c59.sh" ; /usr/bin/env git ls-remote https://github.com/symfony/demo.git HEAD )
+ DEBUG [552618fc] 	5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1	HEAD
+  INFO [552618fc] Finished in 0.512 seconds with exit status 0 (successful).
+  INFO [21763ee8] Running /usr/bin/env mkdir -p /var/www/symfony/shared /var/www/symfony/releases as user@158.160.13.184
+ DEBUG [21763ee8] Command: /usr/bin/env mkdir -p /var/www/symfony/shared /var/www/symfony/releases
+  INFO [21763ee8] Finished in 0.102 seconds with exit status 0 (successful).
+ DEBUG [378e1dcd] Running [ -f /var/www/symfony/current/REVISION ] as user@158.160.13.184
+ DEBUG [378e1dcd] Command: [ -f /var/www/symfony/current/REVISION ]
+ DEBUG [378e1dcd] Finished in 0.067 seconds with exit status 1 (failed).
+ DEBUG [de933cb3] Running [ -f /var/www/symfony/current/REVISION_TIME ] as user@158.160.13.184
+ DEBUG [de933cb3] Command: [ -f /var/www/symfony/current/REVISION_TIME ]
+ DEBUG [de933cb3] Finished in 0.084 seconds with exit status 1 (failed).
+ DEBUG [a3831294] Running if test ! -d ''; then echo "Directory does not exist ''''" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [a3831294] Command: if test ! -d ''; then echo "Directory does not exist ''''" 1>&2; false; fi
+ DEBUG [a3831294] 	Directory does not exist ''''
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-07-05 20:24:04 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [aa398d75] Running /usr/bin/env mkdir -p /tmp as user@158.160.13.184
+ DEBUG [aa398d75] Command: /usr/bin/env mkdir -p /tmp
+  INFO [aa398d75] Finished in 0.914 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-cd32a871f4e3f1b5424f.sh 0.0%
+  INFO Uploading /tmp/git-ssh-cd32a871f4e3f1b5424f.sh 100.0%
+  INFO [6da51bb9] Running /usr/bin/env chmod 700 /tmp/git-ssh-cd32a871f4e3f1b5424f.sh as user@158.160.13.184
+ DEBUG [6da51bb9] Command: /usr/bin/env chmod 700 /tmp/git-ssh-cd32a871f4e3f1b5424f.sh
+  INFO [6da51bb9] Finished in 0.070 seconds with exit status 0 (successful).
+  INFO [46534af3] Running /usr/bin/env git ls-remote https://github.com/symfony/demo.git HEAD as user@158.160.13.184
+ DEBUG [46534af3] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cd32a871f4e3f1b5424f.sh" ; /usr/bin/env git ls-remote https://github.com/symfony/demo.git HEAD )
+ DEBUG [46534af3] 	5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1	HEAD
+  INFO [46534af3] Finished in 0.500 seconds with exit status 0 (successful).
+  INFO [b00c0f0b] Running /usr/bin/env mkdir -p /var/www/symfony/shared /var/www/symfony/releases as user@158.160.13.184
+ DEBUG [b00c0f0b] Command: /usr/bin/env mkdir -p /var/www/symfony/shared /var/www/symfony/releases
+  INFO [b00c0f0b] Finished in 0.033 seconds with exit status 0 (successful).
+ DEBUG [f760da2f] Running [ -f /var/www/symfony/current/REVISION ] as user@158.160.13.184
+ DEBUG [f760da2f] Command: [ -f /var/www/symfony/current/REVISION ]
+ DEBUG [f760da2f] Finished in 0.049 seconds with exit status 1 (failed).
+ DEBUG [ab54ef3f] Running [ -f /var/www/symfony/current/REVISION_TIME ] as user@158.160.13.184
+ DEBUG [ab54ef3f] Command: [ -f /var/www/symfony/current/REVISION_TIME ]
+ DEBUG [ab54ef3f] Finished in 0.057 seconds with exit status 1 (failed).
+ DEBUG [540ef35a] Running if test ! -d ''; then echo "Directory does not exist ''''" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [540ef35a] Command: if test ! -d ''; then echo "Directory does not exist ''''" 1>&2; false; fi
+ DEBUG [540ef35a] 	Directory does not exist ''''
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-07-05 20:24:50 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [f97ca0c5] Running /usr/bin/env mkdir -p /tmp as user@158.160.13.184
+ DEBUG [f97ca0c5] Command: /usr/bin/env mkdir -p /tmp
+  INFO [f97ca0c5] Finished in 0.388 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-6413f9c6a42ba51da62b.sh 0.0%
+  INFO Uploading /tmp/git-ssh-6413f9c6a42ba51da62b.sh 100.0%
+  INFO [1308266b] Running /usr/bin/env chmod 700 /tmp/git-ssh-6413f9c6a42ba51da62b.sh as user@158.160.13.184
+ DEBUG [1308266b] Command: /usr/bin/env chmod 700 /tmp/git-ssh-6413f9c6a42ba51da62b.sh
+  INFO [1308266b] Finished in 0.050 seconds with exit status 0 (successful).
+  INFO [1f581f6f] Running /usr/bin/env git ls-remote https://github.com/symfony/demo.git HEAD as user@158.160.13.184
+ DEBUG [1f581f6f] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-6413f9c6a42ba51da62b.sh" ; /usr/bin/env git ls-remote https://github.com/symfony/demo.git HEAD )
+ DEBUG [1f581f6f] 	5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1	HEAD
+  INFO [1f581f6f] Finished in 0.534 seconds with exit status 0 (successful).
+  INFO [2e1be069] Running /usr/bin/env mkdir -p /var/www/symfony/shared /var/www/symfony/releases as user@158.160.13.184
+ DEBUG [2e1be069] Command: /usr/bin/env mkdir -p /var/www/symfony/shared /var/www/symfony/releases
+  INFO [2e1be069] Finished in 0.049 seconds with exit status 0 (successful).
+ DEBUG [e7dc4a90] Running [ -f /var/www/symfony/current/REVISION ] as user@158.160.13.184
+ DEBUG [e7dc4a90] Command: [ -f /var/www/symfony/current/REVISION ]
+ DEBUG [e7dc4a90] Finished in 0.036 seconds with exit status 1 (failed).
+ DEBUG [e6bd3fc4] Running [ -f /var/www/symfony/current/REVISION_TIME ] as user@158.160.13.184
+ DEBUG [e6bd3fc4] Command: [ -f /var/www/symfony/current/REVISION_TIME ]
+ DEBUG [e6bd3fc4] Finished in 0.050 seconds with exit status 1 (failed).
+ DEBUG [dc47a5b3] Running if test ! -d ''; then echo "Directory does not exist ''''" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [dc47a5b3] Command: if test ! -d ''; then echo "Directory does not exist ''''" 1>&2; false; fi
+ DEBUG [dc47a5b3] 	Directory does not exist ''''
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-07-05 20:25:11 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [b47d983c] Running /usr/bin/env mkdir -p /tmp as user@158.160.13.184
+ DEBUG [b47d983c] Command: /usr/bin/env mkdir -p /tmp
+  INFO [b47d983c] Finished in 0.311 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-8f8a01d7e877a6294610.sh 0.0%
+  INFO Uploading /tmp/git-ssh-8f8a01d7e877a6294610.sh 100.0%
+  INFO [7d6092e3] Running /usr/bin/env chmod 700 /tmp/git-ssh-8f8a01d7e877a6294610.sh as user@158.160.13.184
+ DEBUG [7d6092e3] Command: /usr/bin/env chmod 700 /tmp/git-ssh-8f8a01d7e877a6294610.sh
+  INFO [7d6092e3] Finished in 0.032 seconds with exit status 0 (successful).
+  INFO [3b202215] Running /usr/bin/env git ls-remote https://github.com/symfony/demo.git HEAD as user@158.160.13.184
+ DEBUG [3b202215] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-8f8a01d7e877a6294610.sh" ; /usr/bin/env git ls-remote https://github.com/symfony/demo.git HEAD )
+ DEBUG [3b202215] 	5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1	HEAD
+  INFO [3b202215] Finished in 0.485 seconds with exit status 0 (successful).
+  INFO [125c39de] Running /usr/bin/env mkdir -p /var/www/symfony/shared /var/www/symfony/releases as user@158.160.13.184
+ DEBUG [125c39de] Command: /usr/bin/env mkdir -p /var/www/symfony/shared /var/www/symfony/releases
+  INFO [125c39de] Finished in 0.037 seconds with exit status 0 (successful).
+ DEBUG [e045095c] Running [ -f /var/www/symfony/current/REVISION ] as user@158.160.13.184
+ DEBUG [e045095c] Command: [ -f /var/www/symfony/current/REVISION ]
+ DEBUG [e045095c] Finished in 0.034 seconds with exit status 1 (failed).
+ DEBUG [4f78b782] Running [ -f /var/www/symfony/current/REVISION_TIME ] as user@158.160.13.184
+ DEBUG [4f78b782] Command: [ -f /var/www/symfony/current/REVISION_TIME ]
+ DEBUG [4f78b782] Finished in 0.040 seconds with exit status 1 (failed).
+ DEBUG [359991ce] Running if test ! -d /var/www/symfony/shared; then echo "Directory does not exist '/var/www/symfony/shared'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [359991ce] Command: if test ! -d /var/www/symfony/shared; then echo "Directory does not exist '/var/www/symfony/shared'" 1>&2; false; fi
+ DEBUG [359991ce] Finished in 0.039 seconds with exit status 0 (successful).
+ DEBUG [5f1bb668] Running /usr/bin/env [ -e composer.phar ] as user@158.160.13.184
+ DEBUG [5f1bb668] Command: cd /var/www/symfony/shared && /usr/bin/env [ -e composer.phar ]
+ DEBUG [5f1bb668] Finished in 0.038 seconds with exit status 1 (failed).
+  INFO [a00a631f] Running /usr/bin/env curl -s https://getcomposer.org/installer | php  as user@158.160.13.184
+ DEBUG [a00a631f] Command: cd /var/www/symfony/shared && /usr/bin/env curl -s https://getcomposer.org/installer | php 
+ DEBUG [a00a631f] 	All settings correct for using Composer
+ DEBUG [a00a631f] 	Downloading...
+ DEBUG [a00a631f] 	
+Composer (version 2.7.7) successfully installed to: /var/www/symfony/shared/composer.phar
+Use it: php composer.phar
+
+  INFO [a00a631f] Finished in 1.406 seconds with exit status 0 (successful).
+ DEBUG [b0e8e8c1] Running [ -f /var/www/symfony/repo/HEAD ] as user@158.160.13.184
+ DEBUG [b0e8e8c1] Command: [ -f /var/www/symfony/repo/HEAD ]
+ DEBUG [b0e8e8c1] Finished in 0.035 seconds with exit status 1 (failed).
+ DEBUG [7d020979] Running if test ! -d /var/www/symfony; then echo "Directory does not exist '/var/www/symfony'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [7d020979] Command: if test ! -d /var/www/symfony; then echo "Directory does not exist '/var/www/symfony'" 1>&2; false; fi
+ DEBUG [7d020979] Finished in 0.036 seconds with exit status 0 (successful).
+  INFO [2ce43bd5] Running /usr/bin/env git clone --mirror https://github.com/symfony/demo.git /var/www/symfony/repo as user@158.160.13.184
+ DEBUG [2ce43bd5] Command: cd /var/www/symfony && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-8f8a01d7e877a6294610.sh" ; /usr/bin/env git clone --mirror https://github.com/symfony/demo.git /var/www/symfony/repo )
+ DEBUG [2ce43bd5] 	Cloning into bare repository '/var/www/symfony/repo'...
+  INFO [2ce43bd5] Finished in 4.470 seconds with exit status 0 (successful).
+ DEBUG [f41e2619] Running if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [f41e2619] Command: if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi
+ DEBUG [f41e2619] Finished in 0.037 seconds with exit status 0 (successful).
+  INFO [cddaedba] Running /usr/bin/env git remote set-url origin https://github.com/symfony/demo.git as user@158.160.13.184
+ DEBUG [cddaedba] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-8f8a01d7e877a6294610.sh" ; /usr/bin/env git remote set-url origin https://github.com/symfony/demo.git )
+  INFO [cddaedba] Finished in 0.033 seconds with exit status 0 (successful).
+  INFO [26c9b961] Running /usr/bin/env git remote update --prune as user@158.160.13.184
+ DEBUG [26c9b961] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-8f8a01d7e877a6294610.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [26c9b961] 	Fetching origin
+  INFO [26c9b961] Finished in 0.545 seconds with exit status 0 (successful).
+ DEBUG [56bef1a9] Running if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [56bef1a9] Command: if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi
+ DEBUG [56bef1a9] Finished in 0.032 seconds with exit status 0 (successful).
+  INFO [3dce67d3] Running /usr/bin/env mkdir -p /var/www/symfony/releases/20240705172513 as user@158.160.13.184
+ DEBUG [3dce67d3] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-8f8a01d7e877a6294610.sh" ; /usr/bin/env mkdir -p /var/www/symfony/releases/20240705172513 )
+  INFO [3dce67d3] Finished in 0.032 seconds with exit status 0 (successful).
+  INFO [c18115b4] Running /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /var/www/symfony/releases/20240705172513 as user@158.160.13.184
+ DEBUG [c18115b4] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-8f8a01d7e877a6294610.sh" ; /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /var/www/symfony/releases/20240705172513 )
+  INFO [c18115b4] Finished in 0.052 seconds with exit status 0 (successful).
+ DEBUG [07a98dff] Running if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [07a98dff] Command: if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi
+ DEBUG [07a98dff] Finished in 0.039 seconds with exit status 0 (successful).
+ DEBUG [663eddca] Running /usr/bin/env git rev-list --max-count=1 main as user@158.160.13.184
+ DEBUG [663eddca] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-8f8a01d7e877a6294610.sh" ; /usr/bin/env git rev-list --max-count=1 main )
+ DEBUG [663eddca] 	5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1
+ DEBUG [663eddca] Finished in 0.042 seconds with exit status 0 (successful).
+ DEBUG [57d64006] Running if test ! -d /var/www/symfony/releases/20240705172513; then echo "Directory does not exist '/var/www/symfony/releases/20240705172513'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [57d64006] Command: if test ! -d /var/www/symfony/releases/20240705172513; then echo "Directory does not exist '/var/www/symfony/releases/20240705172513'" 1>&2; false; fi
+ DEBUG [57d64006] Finished in 0.040 seconds with exit status 0 (successful).
+  INFO [2033306c] Running /usr/bin/env echo "5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1" > REVISION as user@158.160.13.184
+ DEBUG [2033306c] Command: cd /var/www/symfony/releases/20240705172513 && /usr/bin/env echo "5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1" > REVISION
+  INFO [2033306c] Finished in 0.036 seconds with exit status 0 (successful).
+ DEBUG [d57a511c] Running if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [d57a511c] Command: if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi
+ DEBUG [d57a511c] Finished in 0.036 seconds with exit status 0 (successful).
+ DEBUG [ec72a791] Running /usr/bin/env git --no-pager log -1 --pretty=format:"%ct" main as user@158.160.13.184
+ DEBUG [ec72a791] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-8f8a01d7e877a6294610.sh" ; /usr/bin/env git --no-pager log -1 --pretty=format:"%ct" main )
+ DEBUG [ec72a791] 	1717505316
+ DEBUG [ec72a791] Finished in 0.039 seconds with exit status 0 (successful).
+ DEBUG [da34a3cb] Running if test ! -d /var/www/symfony/releases/20240705172513; then echo "Directory does not exist '/var/www/symfony/releases/20240705172513'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [da34a3cb] Command: if test ! -d /var/www/symfony/releases/20240705172513; then echo "Directory does not exist '/var/www/symfony/releases/20240705172513'" 1>&2; false; fi
+ DEBUG [da34a3cb] Finished in 0.040 seconds with exit status 0 (successful).
+  INFO [77f341b5] Running /usr/bin/env echo "1717505316" > REVISION_TIME as user@158.160.13.184
+ DEBUG [77f341b5] Command: cd /var/www/symfony/releases/20240705172513 && /usr/bin/env echo "1717505316" > REVISION_TIME
+  INFO [77f341b5] Finished in 0.034 seconds with exit status 0 (successful).
+ DEBUG [84a75e8e] Running if test ! -d /var/www/symfony/releases/20240705172513; then echo "Directory does not exist '/var/www/symfony/releases/20240705172513'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [84a75e8e] Command: if test ! -d /var/www/symfony/releases/20240705172513; then echo "Directory does not exist '/var/www/symfony/releases/20240705172513'" 1>&2; false; fi
+ DEBUG [84a75e8e] Finished in 0.036 seconds with exit status 0 (successful).
+  INFO [e7897d24] Running php /var/www/symfony/shared/composer.phar install --no-dev --prefer-dist --no-interaction --quiet --optimize-autoloader as user@158.160.13.184
+ DEBUG [e7897d24] Command: cd /var/www/symfony/releases/20240705172513 && php /var/www/symfony/shared/composer.phar install --no-dev --prefer-dist --no-interaction --quiet --optimize-autoloader
+ DEBUG [e7897d24] 	Script @auto-scripts was called via post-install-cmd
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-07-05 20:28:51 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [cff129bc] Running /usr/bin/env mkdir -p /tmp as user@158.160.13.184
+ DEBUG [cff129bc] Command: /usr/bin/env mkdir -p /tmp
+  INFO [cff129bc] Finished in 0.328 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-5defeb4a4ab52503689b.sh 0.0%
+  INFO Uploading /tmp/git-ssh-5defeb4a4ab52503689b.sh 100.0%
+  INFO [bc158c0d] Running /usr/bin/env chmod 700 /tmp/git-ssh-5defeb4a4ab52503689b.sh as user@158.160.13.184
+ DEBUG [bc158c0d] Command: /usr/bin/env chmod 700 /tmp/git-ssh-5defeb4a4ab52503689b.sh
+  INFO [bc158c0d] Finished in 0.037 seconds with exit status 0 (successful).
+  INFO [778c4dd2] Running /usr/bin/env git ls-remote https://github.com/symfony/demo.git HEAD as user@158.160.13.184
+ DEBUG [778c4dd2] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-5defeb4a4ab52503689b.sh" ; /usr/bin/env git ls-remote https://github.com/symfony/demo.git HEAD )
+ DEBUG [778c4dd2] 	5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1	HEAD
+  INFO [778c4dd2] Finished in 0.496 seconds with exit status 0 (successful).
+  INFO [0554d21f] Running /usr/bin/env mkdir -p /var/www/symfony/shared /var/www/symfony/releases as user@158.160.13.184
+ DEBUG [0554d21f] Command: /usr/bin/env mkdir -p /var/www/symfony/shared /var/www/symfony/releases
+  INFO [0554d21f] Finished in 0.035 seconds with exit status 0 (successful).
+ DEBUG [472bca6f] Running [ -f /var/www/symfony/current/REVISION ] as user@158.160.13.184
+ DEBUG [472bca6f] Command: [ -f /var/www/symfony/current/REVISION ]
+ DEBUG [472bca6f] Finished in 0.035 seconds with exit status 1 (failed).
+ DEBUG [530b3454] Running [ -f /var/www/symfony/current/REVISION_TIME ] as user@158.160.13.184
+ DEBUG [530b3454] Command: [ -f /var/www/symfony/current/REVISION_TIME ]
+ DEBUG [530b3454] Finished in 0.037 seconds with exit status 1 (failed).
+ DEBUG [3220bcb1] Running if test ! -d /var/www/symfony/shared; then echo "Directory does not exist '/var/www/symfony/shared'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [3220bcb1] Command: if test ! -d /var/www/symfony/shared; then echo "Directory does not exist '/var/www/symfony/shared'" 1>&2; false; fi
+ DEBUG [3220bcb1] Finished in 0.036 seconds with exit status 0 (successful).
+ DEBUG [9b4e4b61] Running /usr/bin/env [ -e composer.phar ] as user@158.160.13.184
+ DEBUG [9b4e4b61] Command: cd /var/www/symfony/shared && /usr/bin/env [ -e composer.phar ]
+ DEBUG [9b4e4b61] Finished in 0.030 seconds with exit status 0 (successful).
+ DEBUG [a6128788] Running [ -f /var/www/symfony/repo/HEAD ] as user@158.160.13.184
+ DEBUG [a6128788] Command: [ -f /var/www/symfony/repo/HEAD ]
+ DEBUG [a6128788] Finished in 0.029 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/symfony/repo
+ DEBUG [7a2d322a] Running if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [7a2d322a] Command: if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi
+ DEBUG [7a2d322a] Finished in 0.029 seconds with exit status 0 (successful).
+  INFO [848d45a2] Running /usr/bin/env git remote set-url origin https://github.com/symfony/demo.git as user@158.160.13.184
+ DEBUG [848d45a2] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-5defeb4a4ab52503689b.sh" ; /usr/bin/env git remote set-url origin https://github.com/symfony/demo.git )
+  INFO [848d45a2] Finished in 0.032 seconds with exit status 0 (successful).
+  INFO [e0f6c37c] Running /usr/bin/env git remote update --prune as user@158.160.13.184
+ DEBUG [e0f6c37c] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-5defeb4a4ab52503689b.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [e0f6c37c] 	Fetching origin
+  INFO [e0f6c37c] Finished in 0.539 seconds with exit status 0 (successful).
+ DEBUG [0613b426] Running if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [0613b426] Command: if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi
+ DEBUG [0613b426] Finished in 0.035 seconds with exit status 0 (successful).
+  INFO [f0c20c90] Running /usr/bin/env mkdir -p /var/www/symfony/releases/20240705172853 as user@158.160.13.184
+ DEBUG [f0c20c90] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-5defeb4a4ab52503689b.sh" ; /usr/bin/env mkdir -p /var/www/symfony/releases/20240705172853 )
+  INFO [f0c20c90] Finished in 0.034 seconds with exit status 0 (successful).
+  INFO [a7c4b076] Running /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /var/www/symfony/releases/20240705172853 as user@158.160.13.184
+ DEBUG [a7c4b076] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-5defeb4a4ab52503689b.sh" ; /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /var/www/symfony/releases/20240705172853 )
+  INFO [a7c4b076] Finished in 0.052 seconds with exit status 0 (successful).
+ DEBUG [8d9419c6] Running if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [8d9419c6] Command: if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi
+ DEBUG [8d9419c6] Finished in 0.038 seconds with exit status 0 (successful).
+ DEBUG [a4cd90c3] Running /usr/bin/env git rev-list --max-count=1 main as user@158.160.13.184
+ DEBUG [a4cd90c3] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-5defeb4a4ab52503689b.sh" ; /usr/bin/env git rev-list --max-count=1 main )
+ DEBUG [a4cd90c3] 	5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1
+ DEBUG [a4cd90c3] Finished in 0.044 seconds with exit status 0 (successful).
+ DEBUG [8d48fff8] Running if test ! -d /var/www/symfony/releases/20240705172853; then echo "Directory does not exist '/var/www/symfony/releases/20240705172853'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [8d48fff8] Command: if test ! -d /var/www/symfony/releases/20240705172853; then echo "Directory does not exist '/var/www/symfony/releases/20240705172853'" 1>&2; false; fi
+ DEBUG [8d48fff8] Finished in 0.041 seconds with exit status 0 (successful).
+  INFO [96d69ea1] Running /usr/bin/env echo "5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1" > REVISION as user@158.160.13.184
+ DEBUG [96d69ea1] Command: cd /var/www/symfony/releases/20240705172853 && /usr/bin/env echo "5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1" > REVISION
+  INFO [96d69ea1] Finished in 0.036 seconds with exit status 0 (successful).
+ DEBUG [b26d7df1] Running if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [b26d7df1] Command: if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi
+ DEBUG [b26d7df1] Finished in 0.033 seconds with exit status 0 (successful).
+ DEBUG [7377ecfe] Running /usr/bin/env git --no-pager log -1 --pretty=format:"%ct" main as user@158.160.13.184
+ DEBUG [7377ecfe] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-5defeb4a4ab52503689b.sh" ; /usr/bin/env git --no-pager log -1 --pretty=format:"%ct" main )
+ DEBUG [7377ecfe] 	1717505316
+ DEBUG [7377ecfe] Finished in 0.036 seconds with exit status 0 (successful).
+ DEBUG [4e674c2f] Running if test ! -d /var/www/symfony/releases/20240705172853; then echo "Directory does not exist '/var/www/symfony/releases/20240705172853'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [4e674c2f] Command: if test ! -d /var/www/symfony/releases/20240705172853; then echo "Directory does not exist '/var/www/symfony/releases/20240705172853'" 1>&2; false; fi
+ DEBUG [4e674c2f] Finished in 0.038 seconds with exit status 0 (successful).
+  INFO [f83d6944] Running /usr/bin/env echo "1717505316" > REVISION_TIME as user@158.160.13.184
+ DEBUG [f83d6944] Command: cd /var/www/symfony/releases/20240705172853 && /usr/bin/env echo "1717505316" > REVISION_TIME
+  INFO [f83d6944] Finished in 0.037 seconds with exit status 0 (successful).
+ DEBUG [6dfde1ed] Running if test ! -d /var/www/symfony/releases/20240705172853; then echo "Directory does not exist '/var/www/symfony/releases/20240705172853'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [6dfde1ed] Command: if test ! -d /var/www/symfony/releases/20240705172853; then echo "Directory does not exist '/var/www/symfony/releases/20240705172853'" 1>&2; false; fi
+ DEBUG [6dfde1ed] Finished in 0.030 seconds with exit status 0 (successful).
+  INFO [06254f90] Running php /var/www/symfony/shared/composer.phar install --no-dev --no-interaction --quiet --optimize-autoloader as user@158.160.13.184
+ DEBUG [06254f90] Command: cd /var/www/symfony/releases/20240705172853 && php /var/www/symfony/shared/composer.phar install --no-dev --no-interaction --quiet --optimize-autoloader
+ DEBUG [06254f90] 	Script @auto-scripts was called via post-install-cmd
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-07-05 20:29:26 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [b8612423] Running /usr/bin/env mkdir -p /tmp as user@158.160.13.184
+ DEBUG [b8612423] Command: /usr/bin/env mkdir -p /tmp
+  INFO [b8612423] Finished in 0.322 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-9923cb92cb9014f9be4e.sh 0.0%
+  INFO Uploading /tmp/git-ssh-9923cb92cb9014f9be4e.sh 100.0%
+  INFO [007fabce] Running /usr/bin/env chmod 700 /tmp/git-ssh-9923cb92cb9014f9be4e.sh as user@158.160.13.184
+ DEBUG [007fabce] Command: /usr/bin/env chmod 700 /tmp/git-ssh-9923cb92cb9014f9be4e.sh
+  INFO [007fabce] Finished in 0.054 seconds with exit status 0 (successful).
+  INFO [5c4f91bf] Running /usr/bin/env git ls-remote https://github.com/symfony/demo.git HEAD as user@158.160.13.184
+ DEBUG [5c4f91bf] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-9923cb92cb9014f9be4e.sh" ; /usr/bin/env git ls-remote https://github.com/symfony/demo.git HEAD )
+ DEBUG [5c4f91bf] 	5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1	HEAD
+  INFO [5c4f91bf] Finished in 0.501 seconds with exit status 0 (successful).
+  INFO [e6498bf8] Running /usr/bin/env mkdir -p /var/www/symfony/shared /var/www/symfony/releases as user@158.160.13.184
+ DEBUG [e6498bf8] Command: /usr/bin/env mkdir -p /var/www/symfony/shared /var/www/symfony/releases
+  INFO [e6498bf8] Finished in 0.032 seconds with exit status 0 (successful).
+ DEBUG [b2269315] Running [ -f /var/www/symfony/current/REVISION ] as user@158.160.13.184
+ DEBUG [b2269315] Command: [ -f /var/www/symfony/current/REVISION ]
+ DEBUG [b2269315] Finished in 0.033 seconds with exit status 1 (failed).
+ DEBUG [2d0bf49e] Running [ -f /var/www/symfony/current/REVISION_TIME ] as user@158.160.13.184
+ DEBUG [2d0bf49e] Command: [ -f /var/www/symfony/current/REVISION_TIME ]
+ DEBUG [2d0bf49e] Finished in 0.037 seconds with exit status 1 (failed).
+ DEBUG [46699a67] Running if test ! -d /var/www/symfony/shared; then echo "Directory does not exist '/var/www/symfony/shared'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [46699a67] Command: if test ! -d /var/www/symfony/shared; then echo "Directory does not exist '/var/www/symfony/shared'" 1>&2; false; fi
+ DEBUG [46699a67] Finished in 0.034 seconds with exit status 0 (successful).
+ DEBUG [b8f33721] Running /usr/bin/env [ -e composer.phar ] as user@158.160.13.184
+ DEBUG [b8f33721] Command: cd /var/www/symfony/shared && /usr/bin/env [ -e composer.phar ]
+ DEBUG [b8f33721] Finished in 0.040 seconds with exit status 0 (successful).
+ DEBUG [121585f2] Running [ -f /var/www/symfony/repo/HEAD ] as user@158.160.13.184
+ DEBUG [121585f2] Command: [ -f /var/www/symfony/repo/HEAD ]
+ DEBUG [121585f2] Finished in 0.039 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/symfony/repo
+ DEBUG [155387fa] Running if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [155387fa] Command: if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi
+ DEBUG [155387fa] Finished in 0.034 seconds with exit status 0 (successful).
+  INFO [222ce376] Running /usr/bin/env git remote set-url origin https://github.com/symfony/demo.git as user@158.160.13.184
+ DEBUG [222ce376] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-9923cb92cb9014f9be4e.sh" ; /usr/bin/env git remote set-url origin https://github.com/symfony/demo.git )
+  INFO [222ce376] Finished in 0.070 seconds with exit status 0 (successful).
+  INFO [ee29d302] Running /usr/bin/env git remote update --prune as user@158.160.13.184
+ DEBUG [ee29d302] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-9923cb92cb9014f9be4e.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [ee29d302] 	Fetching origin
+  INFO [ee29d302] Finished in 0.576 seconds with exit status 0 (successful).
+ DEBUG [0b2995d3] Running if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [0b2995d3] Command: if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi
+ DEBUG [0b2995d3] Finished in 0.031 seconds with exit status 0 (successful).
+  INFO [2beb92ef] Running /usr/bin/env mkdir -p /var/www/symfony/releases/20240705172927 as user@158.160.13.184
+ DEBUG [2beb92ef] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-9923cb92cb9014f9be4e.sh" ; /usr/bin/env mkdir -p /var/www/symfony/releases/20240705172927 )
+  INFO [2beb92ef] Finished in 0.034 seconds with exit status 0 (successful).
+  INFO [542f2330] Running /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /var/www/symfony/releases/20240705172927 as user@158.160.13.184
+ DEBUG [542f2330] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-9923cb92cb9014f9be4e.sh" ; /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /var/www/symfony/releases/20240705172927 )
+  INFO [542f2330] Finished in 0.049 seconds with exit status 0 (successful).
+ DEBUG [56f2e8b8] Running if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [56f2e8b8] Command: if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi
+ DEBUG [56f2e8b8] Finished in 0.029 seconds with exit status 0 (successful).
+ DEBUG [42dff771] Running /usr/bin/env git rev-list --max-count=1 main as user@158.160.13.184
+ DEBUG [42dff771] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-9923cb92cb9014f9be4e.sh" ; /usr/bin/env git rev-list --max-count=1 main )
+ DEBUG [42dff771] 	5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1
+ DEBUG [42dff771] Finished in 0.032 seconds with exit status 0 (successful).
+ DEBUG [69dac013] Running if test ! -d /var/www/symfony/releases/20240705172927; then echo "Directory does not exist '/var/www/symfony/releases/20240705172927'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [69dac013] Command: if test ! -d /var/www/symfony/releases/20240705172927; then echo "Directory does not exist '/var/www/symfony/releases/20240705172927'" 1>&2; false; fi
+ DEBUG [69dac013] Finished in 0.030 seconds with exit status 0 (successful).
+  INFO [92b7f1fd] Running /usr/bin/env echo "5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1" > REVISION as user@158.160.13.184
+ DEBUG [92b7f1fd] Command: cd /var/www/symfony/releases/20240705172927 && /usr/bin/env echo "5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1" > REVISION
+  INFO [92b7f1fd] Finished in 0.032 seconds with exit status 0 (successful).
+ DEBUG [d20e55c1] Running if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [d20e55c1] Command: if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi
+ DEBUG [d20e55c1] Finished in 0.038 seconds with exit status 0 (successful).
+ DEBUG [3a42bc7d] Running /usr/bin/env git --no-pager log -1 --pretty=format:"%ct" main as user@158.160.13.184
+ DEBUG [3a42bc7d] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-9923cb92cb9014f9be4e.sh" ; /usr/bin/env git --no-pager log -1 --pretty=format:"%ct" main )
+ DEBUG [3a42bc7d] 	1717505316
+ DEBUG [3a42bc7d] Finished in 0.037 seconds with exit status 0 (successful).
+ DEBUG [17ba1b19] Running if test ! -d /var/www/symfony/releases/20240705172927; then echo "Directory does not exist '/var/www/symfony/releases/20240705172927'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [17ba1b19] Command: if test ! -d /var/www/symfony/releases/20240705172927; then echo "Directory does not exist '/var/www/symfony/releases/20240705172927'" 1>&2; false; fi
+ DEBUG [17ba1b19] Finished in 0.035 seconds with exit status 0 (successful).
+  INFO [0638cc79] Running /usr/bin/env echo "1717505316" > REVISION_TIME as user@158.160.13.184
+ DEBUG [0638cc79] Command: cd /var/www/symfony/releases/20240705172927 && /usr/bin/env echo "1717505316" > REVISION_TIME
+  INFO [0638cc79] Finished in 0.038 seconds with exit status 0 (successful).
+ DEBUG [a634a012] Running if test ! -d /var/www/symfony/releases/20240705172927; then echo "Directory does not exist '/var/www/symfony/releases/20240705172927'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [a634a012] Command: if test ! -d /var/www/symfony/releases/20240705172927; then echo "Directory does not exist '/var/www/symfony/releases/20240705172927'" 1>&2; false; fi
+ DEBUG [a634a012] Finished in 0.031 seconds with exit status 0 (successful).
+  INFO [3535e921] Running php /var/www/symfony/shared/composer.phar install --no-dev --no-interaction --optimize-autoloader as user@158.160.13.184
+ DEBUG [3535e921] Command: cd /var/www/symfony/releases/20240705172927 && php /var/www/symfony/shared/composer.phar install --no-dev --no-interaction --optimize-autoloader
+ DEBUG [3535e921] 	Installing dependencies from lock file
+ DEBUG [3535e921] 	Verifying lock file contents can be installed on current platform.
+ DEBUG [3535e921] 	Package operations: 102 installs, 0 updates, 0 removals
+ DEBUG [3535e921] 	    0 [>---------------------------]
+ DEBUG [3535e921] 	    0 [->--------------------------]
+ DEBUG [3535e921] 	  - Installing symfony/flex (v2.4.5): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/runtime (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing composer/semver (3.4.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing doctrine/cache (2.2.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/deprecation-contracts (v3.5.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/routing (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/polyfill-mbstring (v1.29.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/polyfill-ctype (v1.29.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/polyfill-php83 (v1.29.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/http-foundation (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing psr/event-dispatcher (1.0.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/event-dispatcher-contracts (v3.5.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/event-dispatcher (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/var-dumper (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing psr/log (3.0.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/error-handler (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/http-kernel (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/finder (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/filesystem (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/var-exporter (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing psr/container (2.0.2): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/service-contracts (v3.5.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/dependency-injection (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/config (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing psr/cache (3.0.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/cache-contracts (v3.5.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/cache (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/framework-bundle (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/stopwatch (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/polyfill-intl-normalizer (v1.29.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/polyfill-intl-grapheme (v1.29.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/string (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/console (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing doctrine/event-manager (2.0.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing doctrine/deprecations (1.1.3): Extracting archive
+ DEBUG [3535e921] 	  - Installing doctrine/dbal (4.0.2): Extracting archive
+ DEBUG [3535e921] 	  - Installing doctrine/migrations (3.7.4): Extracting archive
+ DEBUG [3535e921] 	  - Installing doctrine/persistence (3.3.2): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/doctrine-bridge (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing doctrine/sql-formatter (1.4.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing doctrine/doctrine-bundle (2.12.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing doctrine/doctrine-migrations-bundle (3.3.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing doctrine/lexer (3.0.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing doctrine/instantiator (2.0.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing doctrine/inflector (2.0.10): Extracting archive
+ DEBUG [3535e921] 	  - Installing doctrine/collections (2.2.2): Extracting archive
+ DEBUG [3535e921] 	  - Installing doctrine/orm (3.2.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing nette/utils (v4.0.4): Extracting archive
+ DEBUG [3535e921] 	  - Installing nette/schema (v1.3.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing dflydev/dot-access-data (v3.0.2): Extracting archive
+ DEBUG [3535e921] 	  - Installing league/config (v1.2.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing league/commonmark (2.4.2): Extracting archive
+ DEBUG [3535e921] 	  - Installing psr/http-message (2.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing psr/http-factory (1.1.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing league/uri-interfaces (7.4.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing psr/clock (1.0.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/apache-pack (v1.0.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/asset (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/dotenv (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/expression-language (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/type-info (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/property-info (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/property-access (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/polyfill-intl-icu (v1.29.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/options-resolver (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/form (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing masterminds/html5 (2.9.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing league/uri (7.4.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/html-sanitizer (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/http-client-contracts (v3.5.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/polyfill-intl-idn (v1.29.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/mime (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing egulias/email-validator (4.0.2): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/mailer (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing monolog/monolog (3.6.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/monolog-bridge (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/monolog-bundle (v3.10.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/polyfill-intl-messageformatter (v1.29.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/password-hasher (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/security-core (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/security-http (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/security-csrf (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/clock (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/security-bundle (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing twig/twig (v3.10.3): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/stimulus-bundle (v2.17.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/translation-contracts (v3.5.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/translation (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/twig-bridge (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/ux-twig-component (v2.17.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/ux-live-component (v2.17.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/validator (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/yaml (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/process (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/http-client (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/asset-mapper (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfonycasts/sass-bundle (v0.3.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/twig-bundle (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing twig/extra-bundle (v3.10.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing symfony/intl (v7.1.1): Extracting archive
+ DEBUG [3535e921] 	  - Installing twig/intl-extra (v3.10.0): Extracting archive
+ DEBUG [3535e921] 	  - Installing twig/markdown-extra (v3.10.0): Extracting archive
+ DEBUG [3535e921] 	   0/100 [>---------------------------]   0%
+ DEBUG [3535e921] 	
+  19/100 [=====>----------------------]  19%
+ DEBUG [3535e921] 	
+  25/100 [=======>--------------------]  25%
+ DEBUG [3535e921] 	
+  33/100 [=========>------------------]  33%
+ DEBUG [3535e921] 	
+  43/100 [============>---------------]  43%
+ DEBUG [3535e921] 	
+  55/100 [===============>------------]  55%
+ DEBUG [3535e921] 	
+  65/100 [==================>---------]  65%
+ DEBUG [3535e921] 	
+  75/100 [=====================>------]  75%
+ DEBUG [3535e921] 	
+  85/100 [=======================>----]  85%
+ DEBUG [3535e921] 	
+  92/100 [=========================>--]  92%
+ DEBUG [3535e921] 	
+ 100/100 [============================] 100%
+ DEBUG [3535e921] 	Generating optimized autoload files
+ DEBUG [3535e921] 	86 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+ DEBUG [3535e921] 	
+Run composer recipes at any time to see the status of your Symfony recipes.
+ DEBUG [3535e921] 	
+ DEBUG [3535e921] 	Executing script cache:clear
+ DEBUG [3535e921] 	 [KO]
+ [KO]
+ DEBUG [3535e921] 	Script cache:clear returned with error code 255
+ DEBUG [3535e921] 	!!  Symfony\Component\ErrorHandler\Error\ClassNotFoundError {#77
+!!    #message: """
+!!      Attempted to load class "DebugBundle" from namespace "Symfony\Bundle\DebugBundle".\n
+!!      Did you forget a "use" statement for another namespace?
+!!      """
+!!    #code: 0
+!!    #file: "./vendor/symfony/framework-bundle/Kernel/MicroKernelTrait.php"
+!!    #line: 136
+!!    trace: {
+!!      ./vendor/symfony/framework-bundle/Kernel/MicroKernelTrait.php:136 { …}
+!!      ./vendor/symfony/http-kernel/Kernel.php:339 { …}
+!!      ./vendor/symfony/http-kernel/Kernel.php:731 { …}
+!!      ./vendor/symfony/http-kernel/Kernel.php:120 { …}
+!!      ./vendor/symfony/framework-bundle/Console/Application.php:177 { …}
+!!      ./vendor/symfony/framework-bundle/Console/Application.php:69 { …}
+!!      ./vendor/symfony/console/Application.php:167 { …}
+!!      ./vendor/symfony/runtime/Runner/Symfony/ConsoleApplicationRunner.php:49 { …}
+!!      ./vendor/autoload_runtime.php:29 { …}
+!!      ./bin/console:15 {
+!!        › 
+!!        › require_once dirname(__DIR__).'/vendor/autoload_runtime.php';
+!!        › 
+!!        arguments: {
+!!          "/var/www/symfony/releases/20240705172927/vendor/autoload_runtime.php"
+!!        }
+!!      }
+!!    }
+!!  }
+!!  2024-07-05T17:29:33+00:00 [critical] Uncaught Error: Class "Symfony\Bundle\DebugBundle\DebugBundle" not found
+!!  
+ DEBUG [3535e921] 	Script @auto-scripts was called via post-install-cmd
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-07-05 20:31:46 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [69bc459e] Running /usr/bin/env mkdir -p /tmp as user@158.160.13.184
+ DEBUG [69bc459e] Command: /usr/bin/env mkdir -p /tmp
+  INFO [69bc459e] Finished in 0.338 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-afb270e88883b0d1d2ba.sh 0.0%
+  INFO Uploading /tmp/git-ssh-afb270e88883b0d1d2ba.sh 100.0%
+  INFO [151a558d] Running /usr/bin/env chmod 700 /tmp/git-ssh-afb270e88883b0d1d2ba.sh as user@158.160.13.184
+ DEBUG [151a558d] Command: /usr/bin/env chmod 700 /tmp/git-ssh-afb270e88883b0d1d2ba.sh
+  INFO [151a558d] Finished in 0.031 seconds with exit status 0 (successful).
+  INFO [3c1daa45] Running /usr/bin/env git ls-remote https://github.com/symfony/demo.git HEAD as user@158.160.13.184
+ DEBUG [3c1daa45] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-afb270e88883b0d1d2ba.sh" ; /usr/bin/env git ls-remote https://github.com/symfony/demo.git HEAD )
+ DEBUG [3c1daa45] 	5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1	HEAD
+  INFO [3c1daa45] Finished in 0.457 seconds with exit status 0 (successful).
+  INFO [85085e01] Running /usr/bin/env mkdir -p /var/www/symfony/shared /var/www/symfony/releases as user@158.160.13.184
+ DEBUG [85085e01] Command: /usr/bin/env mkdir -p /var/www/symfony/shared /var/www/symfony/releases
+  INFO [85085e01] Finished in 0.033 seconds with exit status 0 (successful).
+ DEBUG [f2a16e05] Running [ -f /var/www/symfony/current/REVISION ] as user@158.160.13.184
+ DEBUG [f2a16e05] Command: [ -f /var/www/symfony/current/REVISION ]
+ DEBUG [f2a16e05] Finished in 0.033 seconds with exit status 1 (failed).
+ DEBUG [c47432ec] Running [ -f /var/www/symfony/current/REVISION_TIME ] as user@158.160.13.184
+ DEBUG [c47432ec] Command: [ -f /var/www/symfony/current/REVISION_TIME ]
+ DEBUG [c47432ec] Finished in 0.034 seconds with exit status 1 (failed).
+ DEBUG [f9f35728] Running if test ! -d /var/www/symfony/shared; then echo "Directory does not exist '/var/www/symfony/shared'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [f9f35728] Command: if test ! -d /var/www/symfony/shared; then echo "Directory does not exist '/var/www/symfony/shared'" 1>&2; false; fi
+ DEBUG [f9f35728] Finished in 0.037 seconds with exit status 0 (successful).
+ DEBUG [a342fa30] Running /usr/bin/env [ -e composer.phar ] as user@158.160.13.184
+ DEBUG [a342fa30] Command: cd /var/www/symfony/shared && /usr/bin/env [ -e composer.phar ]
+ DEBUG [a342fa30] Finished in 0.037 seconds with exit status 0 (successful).
+ DEBUG [77281771] Running [ -f /var/www/symfony/repo/HEAD ] as user@158.160.13.184
+ DEBUG [77281771] Command: [ -f /var/www/symfony/repo/HEAD ]
+ DEBUG [77281771] Finished in 0.040 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/symfony/repo
+ DEBUG [b3cddf33] Running if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [b3cddf33] Command: if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi
+ DEBUG [b3cddf33] Finished in 0.032 seconds with exit status 0 (successful).
+  INFO [b8806303] Running /usr/bin/env git remote set-url origin https://github.com/symfony/demo.git as user@158.160.13.184
+ DEBUG [b8806303] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-afb270e88883b0d1d2ba.sh" ; /usr/bin/env git remote set-url origin https://github.com/symfony/demo.git )
+  INFO [b8806303] Finished in 0.032 seconds with exit status 0 (successful).
+  INFO [340eaeab] Running /usr/bin/env git remote update --prune as user@158.160.13.184
+ DEBUG [340eaeab] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-afb270e88883b0d1d2ba.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [340eaeab] 	Fetching origin
+  INFO [340eaeab] Finished in 0.541 seconds with exit status 0 (successful).
+ DEBUG [ffdd0827] Running if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [ffdd0827] Command: if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi
+ DEBUG [ffdd0827] Finished in 0.034 seconds with exit status 0 (successful).
+  INFO [790aedcb] Running /usr/bin/env mkdir -p /var/www/symfony/releases/20240705173147 as user@158.160.13.184
+ DEBUG [790aedcb] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-afb270e88883b0d1d2ba.sh" ; /usr/bin/env mkdir -p /var/www/symfony/releases/20240705173147 )
+  INFO [790aedcb] Finished in 0.042 seconds with exit status 0 (successful).
+  INFO [9c987cb7] Running /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /var/www/symfony/releases/20240705173147 as user@158.160.13.184
+ DEBUG [9c987cb7] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-afb270e88883b0d1d2ba.sh" ; /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /var/www/symfony/releases/20240705173147 )
+  INFO [9c987cb7] Finished in 0.048 seconds with exit status 0 (successful).
+ DEBUG [211cb77d] Running if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [211cb77d] Command: if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi
+ DEBUG [211cb77d] Finished in 0.030 seconds with exit status 0 (successful).
+ DEBUG [267154e4] Running /usr/bin/env git rev-list --max-count=1 main as user@158.160.13.184
+ DEBUG [267154e4] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-afb270e88883b0d1d2ba.sh" ; /usr/bin/env git rev-list --max-count=1 main )
+ DEBUG [267154e4] 	5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1
+ DEBUG [267154e4] Finished in 0.036 seconds with exit status 0 (successful).
+ DEBUG [b34fe440] Running if test ! -d /var/www/symfony/releases/20240705173147; then echo "Directory does not exist '/var/www/symfony/releases/20240705173147'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [b34fe440] Command: if test ! -d /var/www/symfony/releases/20240705173147; then echo "Directory does not exist '/var/www/symfony/releases/20240705173147'" 1>&2; false; fi
+ DEBUG [b34fe440] Finished in 0.037 seconds with exit status 0 (successful).
+  INFO [75fa8ff1] Running /usr/bin/env echo "5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1" > REVISION as user@158.160.13.184
+ DEBUG [75fa8ff1] Command: cd /var/www/symfony/releases/20240705173147 && /usr/bin/env echo "5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1" > REVISION
+  INFO [75fa8ff1] Finished in 0.036 seconds with exit status 0 (successful).
+ DEBUG [04c91ee9] Running if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [04c91ee9] Command: if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi
+ DEBUG [04c91ee9] Finished in 0.036 seconds with exit status 0 (successful).
+ DEBUG [1ab5e83b] Running /usr/bin/env git --no-pager log -1 --pretty=format:"%ct" main as user@158.160.13.184
+ DEBUG [1ab5e83b] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-afb270e88883b0d1d2ba.sh" ; /usr/bin/env git --no-pager log -1 --pretty=format:"%ct" main )
+ DEBUG [1ab5e83b] 	1717505316
+ DEBUG [1ab5e83b] Finished in 0.039 seconds with exit status 0 (successful).
+ DEBUG [132cfc33] Running if test ! -d /var/www/symfony/releases/20240705173147; then echo "Directory does not exist '/var/www/symfony/releases/20240705173147'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [132cfc33] Command: if test ! -d /var/www/symfony/releases/20240705173147; then echo "Directory does not exist '/var/www/symfony/releases/20240705173147'" 1>&2; false; fi
+ DEBUG [132cfc33] Finished in 0.034 seconds with exit status 0 (successful).
+  INFO [e6ff868b] Running /usr/bin/env echo "1717505316" > REVISION_TIME as user@158.160.13.184
+ DEBUG [e6ff868b] Command: cd /var/www/symfony/releases/20240705173147 && /usr/bin/env echo "1717505316" > REVISION_TIME
+  INFO [e6ff868b] Finished in 0.037 seconds with exit status 0 (successful).
+ DEBUG [ec9944a9] Running if test ! -d /var/www/symfony/releases/20240705173147; then echo "Directory does not exist '/var/www/symfony/releases/20240705173147'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [ec9944a9] Command: if test ! -d /var/www/symfony/releases/20240705173147; then echo "Directory does not exist '/var/www/symfony/releases/20240705173147'" 1>&2; false; fi
+ DEBUG [ec9944a9] Finished in 0.034 seconds with exit status 0 (successful).
+  INFO [b12da0bf] Running php /var/www/symfony/shared/composer.phar install --no-dev --no-interaction --optimize-autoloader as user@158.160.13.184
+ DEBUG [b12da0bf] Command: cd /var/www/symfony/releases/20240705173147 && php /var/www/symfony/shared/composer.phar install --no-dev --no-interaction --optimize-autoloader
+ DEBUG [b12da0bf] 	Installing dependencies from lock file
+ DEBUG [b12da0bf] 	Verifying lock file contents can be installed on current platform.
+ DEBUG [b12da0bf] 	Package operations: 102 installs, 0 updates, 0 removals
+ DEBUG [b12da0bf] 	    0 [>---------------------------]
+ DEBUG [b12da0bf] 	    0 [->--------------------------]
+ DEBUG [b12da0bf] 	  - Installing symfony/flex (v2.4.5): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/runtime (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing composer/semver (3.4.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing doctrine/cache (2.2.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/deprecation-contracts (v3.5.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/routing (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/polyfill-mbstring (v1.29.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/polyfill-ctype (v1.29.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/polyfill-php83 (v1.29.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/http-foundation (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing psr/event-dispatcher (1.0.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/event-dispatcher-contracts (v3.5.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/event-dispatcher (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/var-dumper (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing psr/log (3.0.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/error-handler (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/http-kernel (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/finder (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/filesystem (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/var-exporter (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing psr/container (2.0.2): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/service-contracts (v3.5.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/dependency-injection (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/config (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing psr/cache (3.0.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/cache-contracts (v3.5.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/cache (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/framework-bundle (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/stopwatch (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/polyfill-intl-normalizer (v1.29.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/polyfill-intl-grapheme (v1.29.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/string (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/console (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing doctrine/event-manager (2.0.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing doctrine/deprecations (1.1.3): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing doctrine/dbal (4.0.2): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing doctrine/migrations (3.7.4): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing doctrine/persistence (3.3.2): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/doctrine-bridge (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing doctrine/sql-formatter (1.4.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing doctrine/doctrine-bundle (2.12.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing doctrine/doctrine-migrations-bundle (3.3.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing doctrine/lexer (3.0.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing doctrine/instantiator (2.0.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing doctrine/inflector (2.0.10): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing doctrine/collections (2.2.2): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing doctrine/orm (3.2.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing nette/utils (v4.0.4): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing nette/schema (v1.3.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing dflydev/dot-access-data (v3.0.2): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing league/config (v1.2.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing league/commonmark (2.4.2): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing psr/http-message (2.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing psr/http-factory (1.1.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing league/uri-interfaces (7.4.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing psr/clock (1.0.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/apache-pack (v1.0.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/asset (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/dotenv (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/expression-language (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/type-info (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/property-info (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/property-access (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/polyfill-intl-icu (v1.29.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/options-resolver (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/form (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing masterminds/html5 (2.9.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing league/uri (7.4.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/html-sanitizer (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/http-client-contracts (v3.5.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/polyfill-intl-idn (v1.29.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/mime (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing egulias/email-validator (4.0.2): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/mailer (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing monolog/monolog (3.6.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/monolog-bridge (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/monolog-bundle (v3.10.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/polyfill-intl-messageformatter (v1.29.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/password-hasher (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/security-core (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/security-http (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/security-csrf (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/clock (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/security-bundle (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing twig/twig (v3.10.3): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/stimulus-bundle (v2.17.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/translation-contracts (v3.5.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/translation (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/twig-bridge (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/ux-twig-component (v2.17.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/ux-live-component (v2.17.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/validator (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/yaml (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/process (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/http-client (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/asset-mapper (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfonycasts/sass-bundle (v0.3.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/twig-bundle (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing twig/extra-bundle (v3.10.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing symfony/intl (v7.1.1): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing twig/intl-extra (v3.10.0): Extracting archive
+ DEBUG [b12da0bf] 	  - Installing twig/markdown-extra (v3.10.0): Extracting archive
+ DEBUG [b12da0bf] 	   0/100 [>---------------------------]   0%
+ DEBUG [b12da0bf] 	
+  27/100 [=======>--------------------]  27%
+ DEBUG [b12da0bf] 	
+  34/100 [=========>------------------]  34%
+ DEBUG [b12da0bf] 	
+  44/100 [============>---------------]  44%
+ DEBUG [b12da0bf] 	
+  56/100 [===============>------------]  56%
+ DEBUG [b12da0bf] 	
+  67/100 [==================>---------]  67%
+ DEBUG [b12da0bf] 	
+  78/100 [=====================>------]  78%
+ DEBUG [b12da0bf] 	
+  85/100 [=======================>----]  85%
+ DEBUG [b12da0bf] 	
+  94/100 [==========================>-]  94%
+ DEBUG [b12da0bf] 	
+ 100/100 [============================] 100%
+ DEBUG [b12da0bf] 	
+ DEBUG [b12da0bf] 	Generating optimized autoload files
+ DEBUG [b12da0bf] 	86 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+ DEBUG [b12da0bf] 	
+Run composer recipes at any time to see the status of your Symfony recipes.
+
+ DEBUG [b12da0bf] 	Executing script cache:clear
+ DEBUG [b12da0bf] 	 [KO]
+ [KO]
+ DEBUG [b12da0bf] 	Script cache:clear returned with error code 255
+!!  Symfony\Component\ErrorHandler\Error\ClassNotFoundError {#77
+ DEBUG [b12da0bf] 	!!    #message: """
+!!      Attempted to load class "DebugBundle" from namespace "Symfony\Bundle\DebugBundle".\n
+!!      Did you forget a "use" statement for another namespace?
+!!      """
+!!    #code: 0
+!!    #file: "./vendor/symfony/framework-bundle/Kernel/MicroKernelTrait.php"
+!!    #line: 136
+!!    trace: {
+!!      ./vendor/symfony/framework-bundle/Kernel/MicroKernelTrait.php:136 { …}
+!!      ./vendor/symfony/http-kernel/Kernel.php:339 { …}
+!!      ./vendor/symfony/http-kernel/Kernel.php:731 { …}
+!!      ./vendor/symfony/http-kernel/Kernel.php:120 { …}
+!!      ./vendor/symfony/framework-bundle/Console/Application.php:177 { …}
+!!      ./vendor/symfony/framework-bundle/Console/Application.php:69 { …}
+!!      ./vendor/symfony/console/Application.php:167 { …}
+!!      ./vendor/symfony/runtime/Runner/Symfony/ConsoleApplicationRunner.php:49 { …}
+!!      ./vendor/autoload_runtime.php:29 { …}
+!!      ./bin/console:15 {
+!!        › 
+!!        › require_once dirname(__DIR__).'/vendor/autoload_runtime.php';
+!!        › 
+!!        arguments: {
+!!          "/var/www/symfony/releases/20240705173147/vendor/autoload_runtime.php"
+!!        }
+!!      }
+!!    }
+!!  }
+!!  2024-07-05T17:31:51+00:00 [critical] Uncaught Error: Class "Symfony\Bundle\DebugBundle\DebugBundle" not found
+!!  
+ DEBUG [b12da0bf] 	Script @auto-scripts was called via post-install-cmd
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-07-05 20:34:27 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [2091b818] Running /usr/bin/env mkdir -p /tmp as user@158.160.13.184
+ DEBUG [2091b818] Command: /usr/bin/env mkdir -p /tmp
+  INFO [2091b818] Finished in 0.316 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-ff711fc6958cf7d5f892.sh 0.0%
+  INFO Uploading /tmp/git-ssh-ff711fc6958cf7d5f892.sh 100.0%
+  INFO [63083de8] Running /usr/bin/env chmod 700 /tmp/git-ssh-ff711fc6958cf7d5f892.sh as user@158.160.13.184
+ DEBUG [63083de8] Command: /usr/bin/env chmod 700 /tmp/git-ssh-ff711fc6958cf7d5f892.sh
+  INFO [63083de8] Finished in 0.036 seconds with exit status 0 (successful).
+  INFO [5de02978] Running /usr/bin/env git ls-remote https://github.com/symfony/demo.git HEAD as user@158.160.13.184
+ DEBUG [5de02978] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ff711fc6958cf7d5f892.sh" ; /usr/bin/env git ls-remote https://github.com/symfony/demo.git HEAD )
+ DEBUG [5de02978] 	5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1	HEAD
+  INFO [5de02978] Finished in 0.475 seconds with exit status 0 (successful).
+  INFO [f409dda7] Running /usr/bin/env mkdir -p /var/www/symfony/shared /var/www/symfony/releases as user@158.160.13.184
+ DEBUG [f409dda7] Command: /usr/bin/env mkdir -p /var/www/symfony/shared /var/www/symfony/releases
+  INFO [f409dda7] Finished in 0.032 seconds with exit status 0 (successful).
+ DEBUG [47fa1521] Running [ -f /var/www/symfony/current/REVISION ] as user@158.160.13.184
+ DEBUG [47fa1521] Command: [ -f /var/www/symfony/current/REVISION ]
+ DEBUG [47fa1521] Finished in 0.031 seconds with exit status 1 (failed).
+ DEBUG [bb5ef791] Running [ -f /var/www/symfony/current/REVISION_TIME ] as user@158.160.13.184
+ DEBUG [bb5ef791] Command: [ -f /var/www/symfony/current/REVISION_TIME ]
+ DEBUG [bb5ef791] Finished in 0.031 seconds with exit status 1 (failed).
+ DEBUG [9383e0cd] Running if test ! -d /var/www/symfony/shared; then echo "Directory does not exist '/var/www/symfony/shared'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [9383e0cd] Command: if test ! -d /var/www/symfony/shared; then echo "Directory does not exist '/var/www/symfony/shared'" 1>&2; false; fi
+ DEBUG [9383e0cd] Finished in 0.031 seconds with exit status 0 (successful).
+ DEBUG [bc526732] Running /usr/bin/env [ -e composer.phar ] as user@158.160.13.184
+ DEBUG [bc526732] Command: cd /var/www/symfony/shared && /usr/bin/env [ -e composer.phar ]
+ DEBUG [bc526732] Finished in 0.032 seconds with exit status 0 (successful).
+ DEBUG [5756dce5] Running [ -f /var/www/symfony/repo/HEAD ] as user@158.160.13.184
+ DEBUG [5756dce5] Command: [ -f /var/www/symfony/repo/HEAD ]
+ DEBUG [5756dce5] Finished in 0.032 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/symfony/repo
+ DEBUG [893d03e2] Running if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [893d03e2] Command: if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi
+ DEBUG [893d03e2] Finished in 0.029 seconds with exit status 0 (successful).
+  INFO [34353a7f] Running /usr/bin/env git remote set-url origin https://github.com/symfony/demo.git as user@158.160.13.184
+ DEBUG [34353a7f] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ff711fc6958cf7d5f892.sh" ; /usr/bin/env git remote set-url origin https://github.com/symfony/demo.git )
+  INFO [34353a7f] Finished in 0.033 seconds with exit status 0 (successful).
+  INFO [4cdcb1fb] Running /usr/bin/env git remote update --prune as user@158.160.13.184
+ DEBUG [4cdcb1fb] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ff711fc6958cf7d5f892.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [4cdcb1fb] 	Fetching origin
+  INFO [4cdcb1fb] Finished in 0.542 seconds with exit status 0 (successful).
+ DEBUG [bf5f6b20] Running if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [bf5f6b20] Command: if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi
+ DEBUG [bf5f6b20] Finished in 0.041 seconds with exit status 0 (successful).
+  INFO [88414515] Running /usr/bin/env mkdir -p /var/www/symfony/releases/20240705173428 as user@158.160.13.184
+ DEBUG [88414515] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ff711fc6958cf7d5f892.sh" ; /usr/bin/env mkdir -p /var/www/symfony/releases/20240705173428 )
+  INFO [88414515] Finished in 0.071 seconds with exit status 0 (successful).
+  INFO [0b761d8a] Running /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /var/www/symfony/releases/20240705173428 as user@158.160.13.184
+ DEBUG [0b761d8a] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ff711fc6958cf7d5f892.sh" ; /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /var/www/symfony/releases/20240705173428 )
+  INFO [0b761d8a] Finished in 0.051 seconds with exit status 0 (successful).
+ DEBUG [b056aa08] Running if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [b056aa08] Command: if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi
+ DEBUG [b056aa08] Finished in 0.030 seconds with exit status 0 (successful).
+ DEBUG [83e4aaa2] Running /usr/bin/env git rev-list --max-count=1 main as user@158.160.13.184
+ DEBUG [83e4aaa2] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ff711fc6958cf7d5f892.sh" ; /usr/bin/env git rev-list --max-count=1 main )
+ DEBUG [83e4aaa2] 	5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1
+ DEBUG [83e4aaa2] Finished in 0.036 seconds with exit status 0 (successful).
+ DEBUG [8da896e7] Running if test ! -d /var/www/symfony/releases/20240705173428; then echo "Directory does not exist '/var/www/symfony/releases/20240705173428'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [8da896e7] Command: if test ! -d /var/www/symfony/releases/20240705173428; then echo "Directory does not exist '/var/www/symfony/releases/20240705173428'" 1>&2; false; fi
+ DEBUG [8da896e7] Finished in 0.032 seconds with exit status 0 (successful).
+  INFO [3f99b10b] Running /usr/bin/env echo "5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1" > REVISION as user@158.160.13.184
+ DEBUG [3f99b10b] Command: cd /var/www/symfony/releases/20240705173428 && /usr/bin/env echo "5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1" > REVISION
+  INFO [3f99b10b] Finished in 0.032 seconds with exit status 0 (successful).
+ DEBUG [7b953e37] Running if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [7b953e37] Command: if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi
+ DEBUG [7b953e37] Finished in 0.032 seconds with exit status 0 (successful).
+ DEBUG [59d813b5] Running /usr/bin/env git --no-pager log -1 --pretty=format:"%ct" main as user@158.160.13.184
+ DEBUG [59d813b5] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-ff711fc6958cf7d5f892.sh" ; /usr/bin/env git --no-pager log -1 --pretty=format:"%ct" main )
+ DEBUG [59d813b5] 	1717505316
+ DEBUG [59d813b5] Finished in 0.033 seconds with exit status 0 (successful).
+ DEBUG [769a1fe3] Running if test ! -d /var/www/symfony/releases/20240705173428; then echo "Directory does not exist '/var/www/symfony/releases/20240705173428'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [769a1fe3] Command: if test ! -d /var/www/symfony/releases/20240705173428; then echo "Directory does not exist '/var/www/symfony/releases/20240705173428'" 1>&2; false; fi
+ DEBUG [769a1fe3] Finished in 0.029 seconds with exit status 0 (successful).
+  INFO [bc9b18e3] Running /usr/bin/env echo "1717505316" > REVISION_TIME as user@158.160.13.184
+ DEBUG [bc9b18e3] Command: cd /var/www/symfony/releases/20240705173428 && /usr/bin/env echo "1717505316" > REVISION_TIME
+  INFO [bc9b18e3] Finished in 0.031 seconds with exit status 0 (successful).
+ DEBUG [5c5363b2] Running if test ! -d /var/www/symfony/releases/20240705173428; then echo "Directory does not exist '/var/www/symfony/releases/20240705173428'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [5c5363b2] Command: if test ! -d /var/www/symfony/releases/20240705173428; then echo "Directory does not exist '/var/www/symfony/releases/20240705173428'" 1>&2; false; fi
+ DEBUG [5c5363b2] Finished in 0.030 seconds with exit status 0 (successful).
+  INFO [cbd84544] Running php /var/www/symfony/shared/composer.phar install --no-dev --no-interaction --optimize-autoloader as user@158.160.13.184
+ DEBUG [cbd84544] Command: cd /var/www/symfony/releases/20240705173428 && php /var/www/symfony/shared/composer.phar install --no-dev --no-interaction --optimize-autoloader
+ DEBUG [cbd84544] 	Installing dependencies from lock file
+ DEBUG [cbd84544] 	Verifying lock file contents can be installed on current platform.
+ DEBUG [cbd84544] 	Package operations: 102 installs, 0 updates, 0 removals
+ DEBUG [cbd84544] 	    0 [>---------------------------]
+ DEBUG [cbd84544] 	    0 [->--------------------------]
+ DEBUG [cbd84544] 	  - Installing symfony/flex (v2.4.5): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/runtime (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing composer/semver (3.4.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing doctrine/cache (2.2.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/deprecation-contracts (v3.5.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/routing (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/polyfill-mbstring (v1.29.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/polyfill-ctype (v1.29.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/polyfill-php83 (v1.29.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/http-foundation (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing psr/event-dispatcher (1.0.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/event-dispatcher-contracts (v3.5.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/event-dispatcher (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/var-dumper (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing psr/log (3.0.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/error-handler (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/http-kernel (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/finder (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/filesystem (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/var-exporter (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing psr/container (2.0.2): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/service-contracts (v3.5.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/dependency-injection (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/config (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing psr/cache (3.0.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/cache-contracts (v3.5.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/cache (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/framework-bundle (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/stopwatch (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/polyfill-intl-normalizer (v1.29.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/polyfill-intl-grapheme (v1.29.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/string (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/console (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing doctrine/event-manager (2.0.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing doctrine/deprecations (1.1.3): Extracting archive
+ DEBUG [cbd84544] 	  - Installing doctrine/dbal (4.0.2): Extracting archive
+ DEBUG [cbd84544] 	  - Installing doctrine/migrations (3.7.4): Extracting archive
+ DEBUG [cbd84544] 	  - Installing doctrine/persistence (3.3.2): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/doctrine-bridge (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing doctrine/sql-formatter (1.4.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing doctrine/doctrine-bundle (2.12.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing doctrine/doctrine-migrations-bundle (3.3.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing doctrine/lexer (3.0.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing doctrine/instantiator (2.0.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing doctrine/inflector (2.0.10): Extracting archive
+ DEBUG [cbd84544] 	  - Installing doctrine/collections (2.2.2): Extracting archive
+ DEBUG [cbd84544] 	  - Installing doctrine/orm (3.2.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing nette/utils (v4.0.4): Extracting archive
+ DEBUG [cbd84544] 	  - Installing nette/schema (v1.3.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing dflydev/dot-access-data (v3.0.2): Extracting archive
+ DEBUG [cbd84544] 	  - Installing league/config (v1.2.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing league/commonmark (2.4.2): Extracting archive
+ DEBUG [cbd84544] 	  - Installing psr/http-message (2.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing psr/http-factory (1.1.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing league/uri-interfaces (7.4.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing psr/clock (1.0.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/apache-pack (v1.0.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/asset (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/dotenv (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/expression-language (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/type-info (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/property-info (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/property-access (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/polyfill-intl-icu (v1.29.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/options-resolver (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/form (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing masterminds/html5 (2.9.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing league/uri (7.4.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/html-sanitizer (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/http-client-contracts (v3.5.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/polyfill-intl-idn (v1.29.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/mime (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing egulias/email-validator (4.0.2): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/mailer (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing monolog/monolog (3.6.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/monolog-bridge (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/monolog-bundle (v3.10.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/polyfill-intl-messageformatter (v1.29.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/password-hasher (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/security-core (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/security-http (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/security-csrf (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/clock (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/security-bundle (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing twig/twig (v3.10.3): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/stimulus-bundle (v2.17.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/translation-contracts (v3.5.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/translation (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/twig-bridge (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/ux-twig-component (v2.17.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/ux-live-component (v2.17.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/validator (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/yaml (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/process (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/http-client (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/asset-mapper (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfonycasts/sass-bundle (v0.3.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/twig-bundle (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing twig/extra-bundle (v3.10.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing symfony/intl (v7.1.1): Extracting archive
+ DEBUG [cbd84544] 	  - Installing twig/intl-extra (v3.10.0): Extracting archive
+ DEBUG [cbd84544] 	  - Installing twig/markdown-extra (v3.10.0): Extracting archive
+ DEBUG [cbd84544] 	   0/100 [>---------------------------]   0%
+ DEBUG [cbd84544] 	
+  10/100 [==>-------------------------]  10%
+ DEBUG [cbd84544] 	
+  20/100 [=====>----------------------]  20%
+ DEBUG [cbd84544] 	
+  30/100 [========>-------------------]  30%
+ DEBUG [cbd84544] 	
+  48/100 [=============>--------------]  48%
+ DEBUG [cbd84544] 	
+  58/100 [================>-----------]  57%
+ DEBUG [cbd84544] 	
+  68/100 [===================>--------]  68%
+ DEBUG [cbd84544] 	
+  74/100 [====================>-------]  74%
+ DEBUG [cbd84544] 	
+  84/100 [=======================>----]  84%
+ DEBUG [cbd84544] 	
+  94/100 [==========================>-]  94%
+ DEBUG [cbd84544] 	
+ 100/100 [============================] 100%
+ DEBUG [cbd84544] 	Generating optimized autoload files
+ DEBUG [cbd84544] 	86 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+ DEBUG [cbd84544] 	
+Run composer recipes at any time to see the status of your Symfony recipes.
+
+ DEBUG [cbd84544] 	Executing script cache:clear
+ DEBUG [cbd84544] 	 [KO]
+ [KO]
+ DEBUG [cbd84544] 	Script cache:clear returned with error code 255
+ DEBUG [cbd84544] 	!!  Symfony\Component\ErrorHandler\Error\ClassNotFoundError {#77
+!!    #message: """
+!!      Attempted to load class "DebugBundle" from namespace "Symfony\Bundle\DebugBundle".\n
+!!      Did you forget a "use" statement for another namespace?
+!!      """
+!!    #code: 0
+!!    #file: "./vendor/symfony/framework-bundle/Kernel/MicroKernelTrait.php"
+!!    #line: 136
+!!    trace: {
+!!      ./vendor/symfony/framework-bundle/Kernel/MicroKernelTrait.php:136 { …}
+!!      ./vendor/symfony/http-kernel/Kernel.php:339 { …}
+!!      ./vendor/symfony/http-kernel/Kernel.php:731 { …}
+!!      ./vendor/symfony/http-kernel/Kernel.php:120 { …}
+!!      ./vendor/symfony/framework-bundle/Console/Application.php:177 { …}
+!!      ./vendor/symfony/framework-bundle/Console/Application.php:69 { …}
+!!      ./vendor/symfony/console/Application.php:167 { …}
+!!      ./vendor/symfony/runtime/Runner/Symfony/ConsoleApplicationRunner.php:49 { …}
+!!      ./vendor/autoload_runtime.php:29 { …}
+!!      ./bin/console:15 {
+!!        › 
+!!        › require_once dirname(__DIR__).'/vendor/autoload_runtime.php';
+!!        › 
+!!        arguments: {
+!!          "/var/www/symfony/releases/20240705173428/vendor/autoload_runtime.php"
+!!        }
+!!      }
+!!    }
+!!  }
+!!  2024-07-05T17:34:33+00:00 [critical] Uncaught Error: Class "Symfony\Bundle\DebugBundle\DebugBundle" not found
+!!  
+ DEBUG [cbd84544] 	Script @auto-scripts was called via post-install-cmd
+  INFO ---------------------------------------------------------------------------
+  INFO START 2024-07-05 20:35:05 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [1cc4eb88] Running /usr/bin/env mkdir -p /tmp as user@158.160.13.184
+ DEBUG [1cc4eb88] Command: /usr/bin/env mkdir -p /tmp
+  INFO [1cc4eb88] Finished in 0.362 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-97220cc48874995eb895.sh 0.0%
+  INFO Uploading /tmp/git-ssh-97220cc48874995eb895.sh 100.0%
+  INFO [08ab9543] Running /usr/bin/env chmod 700 /tmp/git-ssh-97220cc48874995eb895.sh as user@158.160.13.184
+ DEBUG [08ab9543] Command: /usr/bin/env chmod 700 /tmp/git-ssh-97220cc48874995eb895.sh
+  INFO [08ab9543] Finished in 0.031 seconds with exit status 0 (successful).
+  INFO [8b200884] Running /usr/bin/env git ls-remote https://github.com/symfony/demo.git HEAD as user@158.160.13.184
+ DEBUG [8b200884] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-97220cc48874995eb895.sh" ; /usr/bin/env git ls-remote https://github.com/symfony/demo.git HEAD )
+ DEBUG [8b200884] 	5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1	HEAD
+  INFO [8b200884] Finished in 0.473 seconds with exit status 0 (successful).
+  INFO [463494e5] Running /usr/bin/env mkdir -p /var/www/symfony/shared /var/www/symfony/releases as user@158.160.13.184
+ DEBUG [463494e5] Command: /usr/bin/env mkdir -p /var/www/symfony/shared /var/www/symfony/releases
+  INFO [463494e5] Finished in 0.037 seconds with exit status 0 (successful).
+ DEBUG [f9d114da] Running [ -f /var/www/symfony/current/REVISION ] as user@158.160.13.184
+ DEBUG [f9d114da] Command: [ -f /var/www/symfony/current/REVISION ]
+ DEBUG [f9d114da] Finished in 0.037 seconds with exit status 1 (failed).
+ DEBUG [990e2c78] Running [ -f /var/www/symfony/current/REVISION_TIME ] as user@158.160.13.184
+ DEBUG [990e2c78] Command: [ -f /var/www/symfony/current/REVISION_TIME ]
+ DEBUG [990e2c78] Finished in 0.033 seconds with exit status 1 (failed).
+ DEBUG [2edb970b] Running if test ! -d /var/www/symfony/shared; then echo "Directory does not exist '/var/www/symfony/shared'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [2edb970b] Command: if test ! -d /var/www/symfony/shared; then echo "Directory does not exist '/var/www/symfony/shared'" 1>&2; false; fi
+ DEBUG [2edb970b] Finished in 0.032 seconds with exit status 0 (successful).
+ DEBUG [928d3447] Running /usr/bin/env [ -e composer.phar ] as user@158.160.13.184
+ DEBUG [928d3447] Command: cd /var/www/symfony/shared && /usr/bin/env [ -e composer.phar ]
+ DEBUG [928d3447] Finished in 0.034 seconds with exit status 0 (successful).
+ DEBUG [bd338d8b] Running [ -f /var/www/symfony/repo/HEAD ] as user@158.160.13.184
+ DEBUG [bd338d8b] Command: [ -f /var/www/symfony/repo/HEAD ]
+ DEBUG [bd338d8b] Finished in 0.038 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/symfony/repo
+ DEBUG [21b0254a] Running if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [21b0254a] Command: if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi
+ DEBUG [21b0254a] Finished in 0.036 seconds with exit status 0 (successful).
+  INFO [f3abe930] Running /usr/bin/env git remote set-url origin https://github.com/symfony/demo.git as user@158.160.13.184
+ DEBUG [f3abe930] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-97220cc48874995eb895.sh" ; /usr/bin/env git remote set-url origin https://github.com/symfony/demo.git )
+  INFO [f3abe930] Finished in 0.038 seconds with exit status 0 (successful).
+  INFO [11287ef9] Running /usr/bin/env git remote update --prune as user@158.160.13.184
+ DEBUG [11287ef9] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-97220cc48874995eb895.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [11287ef9] 	Fetching origin
+  INFO [11287ef9] Finished in 0.526 seconds with exit status 0 (successful).
+ DEBUG [c209eb68] Running if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [c209eb68] Command: if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi
+ DEBUG [c209eb68] Finished in 0.037 seconds with exit status 0 (successful).
+  INFO [0a439ca5] Running /usr/bin/env mkdir -p /var/www/symfony/releases/20240705173507 as user@158.160.13.184
+ DEBUG [0a439ca5] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-97220cc48874995eb895.sh" ; /usr/bin/env mkdir -p /var/www/symfony/releases/20240705173507 )
+  INFO [0a439ca5] Finished in 0.035 seconds with exit status 0 (successful).
+  INFO [a5b7fb3d] Running /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /var/www/symfony/releases/20240705173507 as user@158.160.13.184
+ DEBUG [a5b7fb3d] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-97220cc48874995eb895.sh" ; /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /var/www/symfony/releases/20240705173507 )
+  INFO [a5b7fb3d] Finished in 0.055 seconds with exit status 0 (successful).
+ DEBUG [ef384db9] Running if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [ef384db9] Command: if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi
+ DEBUG [ef384db9] Finished in 0.037 seconds with exit status 0 (successful).
+ DEBUG [de9636b2] Running /usr/bin/env git rev-list --max-count=1 main as user@158.160.13.184
+ DEBUG [de9636b2] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-97220cc48874995eb895.sh" ; /usr/bin/env git rev-list --max-count=1 main )
+ DEBUG [de9636b2] 	5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1
+ DEBUG [de9636b2] Finished in 0.037 seconds with exit status 0 (successful).
+ DEBUG [44140dbd] Running if test ! -d /var/www/symfony/releases/20240705173507; then echo "Directory does not exist '/var/www/symfony/releases/20240705173507'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [44140dbd] Command: if test ! -d /var/www/symfony/releases/20240705173507; then echo "Directory does not exist '/var/www/symfony/releases/20240705173507'" 1>&2; false; fi
+ DEBUG [44140dbd] Finished in 0.033 seconds with exit status 0 (successful).
+  INFO [62969490] Running /usr/bin/env echo "5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1" > REVISION as user@158.160.13.184
+ DEBUG [62969490] Command: cd /var/www/symfony/releases/20240705173507 && /usr/bin/env echo "5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1" > REVISION
+  INFO [62969490] Finished in 0.036 seconds with exit status 0 (successful).
+ DEBUG [bc999d05] Running if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [bc999d05] Command: if test ! -d /var/www/symfony/repo; then echo "Directory does not exist '/var/www/symfony/repo'" 1>&2; false; fi
+ DEBUG [bc999d05] Finished in 0.037 seconds with exit status 0 (successful).
+ DEBUG [9b2629e9] Running /usr/bin/env git --no-pager log -1 --pretty=format:"%ct" main as user@158.160.13.184
+ DEBUG [9b2629e9] Command: cd /var/www/symfony/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-97220cc48874995eb895.sh" ; /usr/bin/env git --no-pager log -1 --pretty=format:"%ct" main )
+ DEBUG [9b2629e9] 	1717505316
+ DEBUG [9b2629e9] Finished in 0.033 seconds with exit status 0 (successful).
+ DEBUG [359099ce] Running if test ! -d /var/www/symfony/releases/20240705173507; then echo "Directory does not exist '/var/www/symfony/releases/20240705173507'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [359099ce] Command: if test ! -d /var/www/symfony/releases/20240705173507; then echo "Directory does not exist '/var/www/symfony/releases/20240705173507'" 1>&2; false; fi
+ DEBUG [359099ce] Finished in 0.062 seconds with exit status 0 (successful).
+  INFO [fd3daf55] Running /usr/bin/env echo "1717505316" > REVISION_TIME as user@158.160.13.184
+ DEBUG [fd3daf55] Command: cd /var/www/symfony/releases/20240705173507 && /usr/bin/env echo "1717505316" > REVISION_TIME
+  INFO [fd3daf55] Finished in 0.032 seconds with exit status 0 (successful).
+ DEBUG [9a8a433f] Running if test ! -d /var/www/symfony/releases/20240705173507; then echo "Directory does not exist '/var/www/symfony/releases/20240705173507'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [9a8a433f] Command: if test ! -d /var/www/symfony/releases/20240705173507; then echo "Directory does not exist '/var/www/symfony/releases/20240705173507'" 1>&2; false; fi
+ DEBUG [9a8a433f] Finished in 0.035 seconds with exit status 0 (successful).
+  INFO [572390bc] Running php /var/www/symfony/shared/composer.phar install --no-interaction --quiet --optimize-autoloader as user@158.160.13.184
+ DEBUG [572390bc] Command: cd /var/www/symfony/releases/20240705173507 && php /var/www/symfony/shared/composer.phar install --no-interaction --quiet --optimize-autoloader
+  INFO [572390bc] Finished in 10.894 seconds with exit status 0 (successful).
+  INFO [3d331d76] Running /usr/bin/env ln -s /var/www/symfony/releases/20240705173507 /var/www/symfony/releases/current as user@158.160.13.184
+ DEBUG [3d331d76] Command: /usr/bin/env ln -s /var/www/symfony/releases/20240705173507 /var/www/symfony/releases/current
+  INFO [3d331d76] Finished in 0.039 seconds with exit status 0 (successful).
+  INFO [4b3e0156] Running /usr/bin/env mv /var/www/symfony/releases/current /var/www/symfony as user@158.160.13.184
+ DEBUG [4b3e0156] Command: /usr/bin/env mv /var/www/symfony/releases/current /var/www/symfony
+  INFO [4b3e0156] Finished in 0.035 seconds with exit status 0 (successful).
+ DEBUG [0b9248bc] Running /usr/bin/env ls -x /var/www/symfony/releases as user@158.160.13.184
+ DEBUG [0b9248bc] Command: /usr/bin/env ls -x /var/www/symfony/releases
+ DEBUG [0b9248bc] 	20240705172513	20240705172853	20240705172927	20240705173147	20240705173428
+20240705173507
+ DEBUG [0b9248bc] Finished in 0.051 seconds with exit status 0 (successful).
+  INFO Keeping 5 of 6 deployed releases on 158.160.13.184
+ DEBUG [8f635e6d] Running [ -d /var/www/symfony/current ] as user@158.160.13.184
+ DEBUG [8f635e6d] Command: [ -d /var/www/symfony/current ]
+ DEBUG [8f635e6d] Finished in 0.045 seconds with exit status 0 (successful).
+ DEBUG [ca14ce09] Running /usr/bin/env readlink /var/www/symfony/current as user@158.160.13.184
+ DEBUG [ca14ce09] Command: /usr/bin/env readlink /var/www/symfony/current
+ DEBUG [ca14ce09] 	/var/www/symfony/releases/20240705173507
+ DEBUG [ca14ce09] Finished in 0.054 seconds with exit status 0 (successful).
+  INFO [51cae2b3] Running /usr/bin/env rm -rf /var/www/symfony/releases/20240705172513 as user@158.160.13.184
+ DEBUG [51cae2b3] Command: /usr/bin/env rm -rf /var/www/symfony/releases/20240705172513
+  INFO [51cae2b3] Finished in 0.169 seconds with exit status 0 (successful).
+ DEBUG [77204fc3] Running if test ! -d /var/www/symfony/releases; then echo "Directory does not exist '/var/www/symfony/releases'" 1>&2; false; fi as user@158.160.13.184
+ DEBUG [77204fc3] Command: if test ! -d /var/www/symfony/releases; then echo "Directory does not exist '/var/www/symfony/releases'" 1>&2; false; fi
+ DEBUG [77204fc3] Finished in 0.034 seconds with exit status 0 (successful).
+  INFO [6d7bcc9b] Running /usr/bin/env echo "Branch main (at 5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1) deployed as release 20240705173507 by user" >> /var/www/symfony/revisions.log as user@158.160.13.184
+ DEBUG [6d7bcc9b] Command: cd /var/www/symfony/releases && /usr/bin/env echo "Branch main (at 5dd64c8440b3a3b1133bd128babcf3cdf97f0ac1) deployed as release 20240705173507 by user" >> /var/www/symfony/revisions.log
+  INFO [6d7bcc9b] Finished in 0.036 seconds with exit status 0 (successful).
